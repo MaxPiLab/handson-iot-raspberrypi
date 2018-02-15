@@ -2,6 +2,8 @@
 
 A **light-emitting diode** (LED) is a two-lead semiconductor light source. It is a P-N junction diode that emits light when activated. When a suitable voltage is applied to the leads, electrons are able to recombine with electron holes within the device, releasing energy in the form of photons. This effect is called electroluminescence, and the colour of the light (corresponding to the energy of the photon) is determined by the energy band gap of the semiconductor. LEDs are typically small (less than 1 mm) and integrated optical components may be used to shape the radiation pattern.
 
+![](https://github.com/11RO05/handson-iot-raspberrypi/blob/master/images/LED.png) 
+
 LEDs are made on substrate semiconductor materials such as GaAs (Gallium-Arsenide). There are two doped regions, P – positive and N – negative. When current passes through the PN junction it causes electrons to jump to higher atomic energy states. When the electrons return to the ground state, light in the form of photons is emitted. This phenomenon is called electroluminescence and it consumes very little energy since very little heat is generated. LEDs have no problematic filaments, no wear or tear, nothing is changed or altered hence they keep on working for extraordinary long lengths of time.
 
 ### THINGS USED IN THIS PROJECT:-
