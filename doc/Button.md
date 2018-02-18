@@ -3,7 +3,7 @@
 ## What are Push Buttons?
 A **Push Button** is a simple type of switch that controls an action in a machine or some type of process. Most of the time, the buttons are plastic or metal. The shape of the push button may conform to fingers or hands for easy use, or they may simply be flat. It all depends on the individual design. The push button can be normally open or normally closed.
 
-![](https://github.com/11RO05/handson-iot-raspberrypi/blob/master/images/Push-button.jpg)  
+![](https://github.com/11RO05/handson-iot-raspberrypi/blob/master/images/Button.png)  
   
 ## What are Push Buttons used for?
 **Push button** switches are popular in a variety of different applications, including calculators, push button phones, and many home appliances. You can find them in the home, the office, and in industrial applications today. They can turn machines on and off, or cause the devices to perform specific actions, as is the case with calculators. In some cases, specifically for commercial and industrial usage, the buttons can connect through mechanical linkage, which means that pushing one button can actually cause another button to release.
