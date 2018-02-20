@@ -9,7 +9,7 @@ LEDs are made on substrate semiconductor materials such as GaAs (Gallium-Arsenid
 ### THINGS USED IN THIS PROJECT:-
 
 #### HARDWARE COMPONENTS
-1.	Raspberry Pi 3 (Model B+)	**x1**
+1.	Raspberry Pi 3 (Model B)	**x1**
 2.	Breadboard  		        	**x1**
 3.	LED’s				              **x2**
 4.	Jumper wires		        	**x3**

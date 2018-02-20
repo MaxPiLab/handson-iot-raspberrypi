@@ -10,7 +10,7 @@ In electronics, polarity indicates whether a circuit component is symmetric or n
 
 ### THINGS USED IN THIS PROJECT
 #### HARDWARE COMPONENTS
-1.	Raspberry Pi model B			        x1 
+1.	Raspberry Pi 3 (Model B)			        x1 
 2.	Breadboard 					              x1
 3.	Jumper Wires	(male to female)		x2
 4.	LED 						                  x1
