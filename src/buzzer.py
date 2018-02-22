@@ -22,7 +22,7 @@ def morsecode ():
 	GPIO.output(22,GPIO.HIGH)
 	time.sleep(.1)
 
-	#Dash Dash Dah
+	#Dash Dash Dash
 	GPIO.output(22,GPIO.LOW)
 	time.sleep(.2)
 	GPIO.output(22,GPIO.HIGH)
