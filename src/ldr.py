@@ -21,17 +21,19 @@ def RCtime (RCpin):
         return reading
 
 while True:
-		GetDateTime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-		LDRReading = RCtime(3)
-		print (RCtime(3))
-
-		# Open a file
-		fo = open("/home/pi/Desktop/Codes/foo.txt", "w")
-		fo.write (GetDateTime)
-		LDRReading = str(LDRReading)
-		fo.write ("\n")
-		fo.write (LDRReading)
-
-		# Close opend file
-		fo.close()
-		time.sleep(1)
+        GetDateTime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        LDRReading = RCtime(3)
+        print (RCtime(3))
+        
+        # Open a file
+        fo = open("/home/pi/Desktop/Codes/foo.txt", "r+")
+        fo.write ("\n %s \n " %GetDateTime)
+        LDRReading = str(LDRReading)
+        
+        for line in fo:
+                fo.write(LDRReading)
+                fo.read()
+                
+        #close the file that was opened
+        fo.close()
+        time.sleep(1)
