@@ -4,7 +4,7 @@ The Raspberry Pi (RPi) is an ultra **low-cost**,**credit-card sized**, single bo
 
 Other than being a PC, it also has a **set of 40 Pins**, which can be controlled using code, and those can be used to control external components (motors, lights, switched, etc.).  
 
-It will not run your normal Operating Systems. There are specific Operating Systems which are specifically meant for the Pi.It comes in two models: Model A & Model B.  
+It will not run normal Operating Systems. There are specific Operating Systems which are specifically meant for the Pi.It comes in two models: **Model A & Model B**.  
 
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/35935951/36800154-c5907c34-1cd4-11e8-98cc-02c1f0960616.jpg">
@@ -19,15 +19,15 @@ It will not run your normal Operating Systems. There are specific Operating Syst
 
 The Raspberry Pi was created in Febuary 2012 by the Raspberry Pi Foundation, Oringially setup to promote and teach basic computer science in schools and colleges around the UK.  
 
-The products were so popular due to their low cost they were efficient and durable which made them easy to modify and crate projects on, The device ran Linux a popular OS for developers due to it being open-source.  
+The products were so popular due to their **low cost**,**efficiency** and durable which made them easy to modify and crate projects on. The device ran on **Linux**, a popular OS for developers, due to it being open-source.  
 
 ### Where does the name Raspberry Pi come from?
 
 Raspberry is a reference to a fruit naming tradition in the old days of microcomputers. A lot of computer companies were named after fruit like Apple, BlackBerry, Apricot and more...  
 
-The word ‘Pi’ is because the team behind the Raspberry Pi actually started working on developing a board that can run Python Programming Language and they further improvised from their goal and ended up designing a general-purpose computer.  
+The word ‘Pi’ is because the team behind the Raspberry Pi actually started working on developing a board that can run **Python Programming** Language and they further improvised from their goal and ended up designing a general-purpose computer.  
 
-On the Raspberry Pi website they created 2 images that could be installed easily onto a sd card which would then act as the OS for the device, one of the images was based off of Debian a popular lightweight Linux OS and was called Raspbian, the other was called Raspbmc and was based off the popular media centre software Kodi (Formally known as XBMC).  
+On the Raspberry Pi website they created 2 images that could be installed easily onto a sd card which would then act as the OS for the device, one of the images was based off of Debian a popular lightweight Linux OS and was called **Raspbian**, the other was called **Raspbmc** and was based off the popular media centre software Kodi (Formally known as XBMC).  
 
 
 <p align="center"> 
