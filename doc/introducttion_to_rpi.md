@@ -23,6 +23,11 @@ The word ‘Pi’ is because the team behind the Raspberry Pi actually started w
 
 On the Raspberry Pi website they created 2 images that could be installed easily onto a sd card which would then act as the OS for the device, one of the images was based off of Debian a popular lightweight Linux OS and was called Raspbian, the other was called Raspbmc and was based off the popular media centre software Kodi (Formally known as XBMC).  
 
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/36782611-76d92cec-1c9f-11e8-8208-ec2dc78fbf2e.png">
+</p>
+
 ## Evolution of Raspberry Pi  
 
    | **Raspberry Pi**  |  **Raspberry Pi 2**   | **Raspberry Pi 3** |  
