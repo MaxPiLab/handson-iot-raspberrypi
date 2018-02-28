@@ -49,11 +49,11 @@ On the Raspberry Pi website they created 2 images that could be installed easily
    
 ### Raspberry Pi B+ model has some additional features
 
-1.) **More GPIO**: The GPIO header has grown to 40 pins, while retaining the same pinout for the first 26 pins as the Model B.
-2.) **More USB**: It has 4 USB 2.0 ports, compared to 2 on the Model B.
-3.) **Micro SD**: The SD card socket has been replaced with a much nicer push micro SD version.
-4.) **Lower power consumption**: Power consumption is reduced by between 0.5W and 1W.
-5.) **Better audio**: The audio circuit incorporates a dedicated low-noise power supply.
+1.) **More GPIO**: The GPIO header has grown to 40 pins, while retaining the same pinout for the first 26 pins as the Model B.  
+2.) **More USB**: It has 4 USB 2.0 ports, compared to 2 on the Model B.  
+3.) **Micro SD**: The SD card socket has been replaced with a much nicer push micro SD version.  
+4.) **Lower power consumption**: Power consumption is reduced by between 0.5W and 1W.  
+5.) **Better audio**: The audio circuit incorporates a dedicated low-noise power supply.  
 
                   	
 
