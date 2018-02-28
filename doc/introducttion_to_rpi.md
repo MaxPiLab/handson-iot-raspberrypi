@@ -4,7 +4,12 @@ The Raspberry Pi (RPi) is an ultra **low-cost**,**credit-card sized**, single bo
 
 Other than being a PC, it also has a **set of 40 Pins**, which can be controlled using code, and those can be used to control external components (motors, lights, switched, etc.).  
 
-It will not run your normal Operating Systems. There are specific Operating Systems which are specifically meant for the Pi.It comes in two models: Model A & Model B.
+It will not run your normal Operating Systems. There are specific Operating Systems which are specifically meant for the Pi.It comes in two models: Model A & Model B.  
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/36799852-16edfe40-1cd4-11e8-95e6-bfe1d62098ff.jpg">
+</p>
+
 
 
 
