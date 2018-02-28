@@ -1,7 +1,8 @@
 # What is Raspberry Pi???
 
-The Raspberry Pi (RPi) is an ultra-low-cost credit-card sized single board computer or a Programmable PC.You can connect a monitor, keyboard and mouse and use it as a regular PC.  
-Other than being a PC, it also has a set of 40 Pins, which can be controlled using code, and those can be used to control external components (motors, lights, switched, etc.).  
+The Raspberry Pi (RPi) is an ultra **low-cost**,**credit-card sized**, single board computer or a Programmable PC. You can connect a monitor, keyboard and mouse and use it as a regular PC.  
+
+Other than being a PC, it also has a **set of 40 Pins**, which can be controlled using code, and those can be used to control external components (motors, lights, switched, etc.).  
 
 It will not run your normal Operating Systems. There are specific Operating Systems which are specifically meant for the Pi.It comes in two models: Model A & Model B.
 
@@ -46,9 +47,9 @@ On the Raspberry Pi website they created 2 images that could be installed easily
 
 ## Basic things required to start your Raspberry Pi
 
-1.) Power Supply
-2.) SD Card
-3.) Raspbian installed Desktop
+1.) Power Supply  
+2.) SD Card  
+3.) Raspbian installed Desktop  
 
 ## Where can you use Raspberry Pi??
 
