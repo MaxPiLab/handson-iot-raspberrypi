@@ -7,7 +7,7 @@ Other than being a PC, it also has a **set of 40 Pins**, which can be controlled
 It will not run normal Operating Systems. There are specific Operating Systems which are specifically meant for the Pi.It comes in two models: **Model A & Model B**.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/36800154-c5907c34-1cd4-11e8-98cc-02c1f0960616.jpg">
+<img src="https://user-images.githubusercontent.com/35935951/36808328-c510a336-1cea-11e8-8fb6-d3a849e65162.png">
 </p>
 
 
