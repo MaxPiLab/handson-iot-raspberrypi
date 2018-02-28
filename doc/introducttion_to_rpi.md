@@ -51,13 +51,3 @@ On the Raspberry Pi website they created 2 images that could be installed easily
 * _Use in home automation_
 * _Use in industrial automation_
 * _Use in commercial products_
-
-
-
-
-	
-	
-	
-
-
-## Features
