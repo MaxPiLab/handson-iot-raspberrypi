@@ -23,18 +23,18 @@ The word ‘Pi’ is because the team behind the Raspberry Pi actually started w
 
 On the Raspberry Pi website they created 2 images that could be installed easily onto a sd card which would then act as the OS for the device, one of the images was based off of Debian a popular lightweight Linux OS and was called Raspbian, the other was called Raspbmc and was based off the popular media centre software Kodi (Formally known as XBMC).  
 
-## Evolution of Raspberry Pi
+## Evolution of Raspberry Pi  
 
-|      | **Raspberry Pi**  |  **Raspberry Pi 2**   | **Raspberry Pi 3** |
-       |-------------------|-----------------------|--------------------|
-       | Released | February 2012	 | February 2015	     | February 2016 |
-       | CPU	 | ARM1176JZF-S	 | ARM Cortex-A7	     | ARM Cortex-A53 |
-       | CPU speed| 700 MHz single core| 900 MHz quad core| 1,200 MHz quad core|
-       | RAM	 | 512MB 256MB Rev 1| 1GB	             | 1GB            |
-       | GPU	 | Broadcom Videocore IV| Broadcom Videocore IV| Broadcom Videocore IV|
-       | Storage	 | SDHC slot MicroSDHC Model A+ and B+| MicroSDHC slot| MicroSDHC slot|
-       | USB Ports| 2 on Model B	| 4 | 4|
-       | WiFi	 | No built-in wifi| No built-in wifi| 802.11n and Bluetooth 4.1|
+   | **Raspberry Pi**  |  **Raspberry Pi 2**   | **Raspberry Pi 3** |  
+   |-------------------|-----------------------|--------------------|
+   | Released | February 2012	 | February 2015	     | February 2016 |
+   | CPU	 | ARM1176JZF-S	 | ARM Cortex-A7	     | ARM Cortex-A53 |
+   | CPU speed| 700 MHz single core| 900 MHz quad core| 1,200 MHz quad core|
+   | RAM	 | 512MB 256MB Rev 1| 1GB	             | 1GB            |
+   | GPU	 | Broadcom Videocore IV| Broadcom Videocore IV| Broadcom Videocore IV|
+   | Storage	 | SDHC slot MicroSDHC Model A+ and B+| MicroSDHC slot| MicroSDHC slot|
+   | USB Ports| 2 on Model B	| 4 | 4|
+   | WiFi	 | No built-in wifi| No built-in wifi| 802.11n and Bluetooth 4.1|
                   	
 
        
