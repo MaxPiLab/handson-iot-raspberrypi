@@ -53,7 +53,7 @@ On the Raspberry Pi website they created 2 images that could be installed easily
 
 ## Where can you use Raspberry Pi??
 
-* _Use in education_
-* _Use in home automation_
-* _Use in industrial automation_
-* _Use in commercial products_
+*  _Use in education_
+*  _Use in home automation_
+*  _Use in industrial automation_
+*  _Use in commercial products_
