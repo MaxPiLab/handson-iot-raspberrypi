@@ -19,7 +19,7 @@ It even has the familiar Windows 10 style GUI.The biggest advantage the Windows 
 The platform supports both ARM or x86/x64 architectures.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/36867788-3eb8cdcc-1dbc-11e8-9a02-b2382d976798.jpg">
+<img src="https://user-images.githubusercontent.com/35935951/36868923-db9fdf24-1dbf-11e8-9d43-b90010bbe69b.jpg">
 </p>
 
 ## 3. RISC OS Open Limited  
@@ -50,13 +50,15 @@ Not only can OSMC play a wide variety of file formats, it also comes with an app
 download apps to your device.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/36868504-83519502-1dbe-11e8-87a6-d14c34e49627.png">
+<img src="https://user-images.githubusercontent.com/35935951/36868925-dff4d354-1dbf-11e8-9f5e-ccfec6391a29.png">
 </p>
 
 
 
 
 
+![getting-started-with-iot-using-azure-windows-iot-core-and-raspberry-pi-20-638]()
+![osmc-420x318]()
 
 
 
