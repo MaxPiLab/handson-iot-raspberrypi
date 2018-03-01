@@ -50,8 +50,11 @@ Not only can OSMC play a wide variety of file formats, it also comes with an app
 download apps to your device.  
 
 <p align="center"> 
-<img src="(https://user-images.githubusercontent.com/35935951/36867792-46d67d60-1dbc-11e8-9696-5b3df74d261c.png">
+<img src="https://user-images.githubusercontent.com/35935951/36868504-83519502-1dbe-11e8-87a6-d14c34e49627.png">
 </p>
+
+
+
 
 
 
