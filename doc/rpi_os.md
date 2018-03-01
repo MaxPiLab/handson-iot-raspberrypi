@@ -19,7 +19,7 @@ It even has the familiar Windows 10 style GUI.The biggest advantage the Windows 
 The platform supports both ARM or x86/x64 architectures.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/36862196-1df30c5c-1dac-11e8-9539-0402a9ea2a00.jpg">
+<img src="https://user-images.githubusercontent.com/35935951/36867788-3eb8cdcc-1dbc-11e8-9a02-b2382d976798.jpg">
 </p>
 
 ## 3. RISC OS Open Limited  
@@ -41,7 +41,7 @@ Turn your Raspberry Pi into a retro gaming platform! RetroPie works with Raspber
 and you can choose either to install it on top of the Raspbian operating system or just have RetroPie running on its own.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/36862149-ff4ce6ce-1dab-11e8-8129-1cd5eeb38bc0.png">
+<img src="https://user-images.githubusercontent.com/35935951/36867784-384ebef6-1dbc-11e8-85c2-d8d5afe52b5b.jpg">
 </p>
 
 ## 6. OSMC
@@ -50,8 +50,10 @@ Not only can OSMC play a wide variety of file formats, it also comes with an app
 download apps to your device.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/36862206-24299082-1dac-11e8-9e2f-0784538c7b15.jpg">
+<img src="(https://user-images.githubusercontent.com/35935951/36867792-46d67d60-1dbc-11e8-9696-5b3df74d261c.png">
 </p>
+
+
 
 
 
