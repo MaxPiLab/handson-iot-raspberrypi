@@ -51,15 +51,3 @@ OSMC Founded in 2014, OSMC lets you play back media from your local network, att
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/35935951/36868925-dff4d354-1dbf-11e8-9f5e-ccfec6391a29.png">
 </p>
-
-
-
-
-
-![getting-started-with-iot-using-azure-windows-iot-core-and-raspberry-pi-20-638]()
-![osmc-420x318]()
-
-
-
-
-
