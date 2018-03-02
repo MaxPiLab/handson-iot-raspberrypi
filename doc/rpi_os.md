@@ -1,4 +1,4 @@
-# Operating Systems thata can run on Raspberry Pi
+# Operating Systems on which Raspberry Pi can run
 
 Raspberry Pi doesn't support normal operating systems what we use generally like Windows,Linux etc.
 There are some Operating Systems on which Raspberry Pi can run.  
@@ -33,17 +33,20 @@ The Pico version of the operating system is a ZIP file that's less than four meg
 There's no GUI, but since it's based on Debian. 
 
 ## 5. RetroPie
-Turn your Raspberry Pi into a retro gaming platform! RetroPie works with Raspberry Pi, ODroid C1/C2, or even a PC,
-and you can choose either to install it on top of the Raspbian operating system or just have RetroPie running on its own.  
+RetroPie allows you to turn your Raspberry Pi, or PC into a retro-gaming machine. It builds upon Raspbian, EmulationStation, RetroArch and many other projects to enable you to play your favourite Arcade, home-console, and classic PC games with the minimum set-up. For power users it also provides a large variety of configuration tools to customise the system as you want.  
+
+RetroPie, you can install it on an existing Raspbian, or start with the RetroPie image and add additional software later.
 
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/35935951/36867784-384ebef6-1dbc-11e8-85c2-d8d5afe52b5b.jpg">
 </p>
 
 ## 6. OSMC
-OSMC stands for **Open Source Media Center**, and it's how you can turn a Raspberry Pi into a hub for your home entertainment.
+OSMC stands for **Open Source Media Center**, and it's is a free and open source media player based on Linux, this is how you can turn a Raspberry Pi into a hub for your home entertainment.
 Not only can OSMC play a wide variety of file formats, it also comes with an app store that lets you quickly and easily
 download apps to your device.  
+
+OSMC Founded in 2014, OSMC lets you play back media from your local network, attached storage and the Internet.  
 
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/35935951/36868925-dff4d354-1dbf-11e8-9f5e-ccfec6391a29.png">
