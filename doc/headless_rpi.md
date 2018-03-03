@@ -81,17 +81,18 @@ Now use the nmap command with the -sn flag (ping scan) on the whole subnet range
 
 Ping scan just pings all the IP addresses to see if they respond. For each device that responds to the ping, the output shows the hostname and IP address like so:  
 
-`Starting Nmap 6.40 ( http://nmap.org ) at 2014-03-10 12:46 GMT
-Nmap scan report for hpprinter (192.168.1.2)
-Host is up (0.00044s latency).
-Nmap scan report for Gordons-MBP (192.168.1.4)
-Host is up (0.0010s latency).
-Nmap scan report for ubuntu (192.168.1.5)
-Host is up (0.0010s latency).
-Nmap scan report for raspberrypi (192.168.1.8)
-Host is up (0.0030s latency).
-Nmap done: 256 IP addresses (4 hosts up) scanned in 2.41 seconds
-Here you can see a device with hostname raspberrypi has IP address  192.168.1.8.  `
+```Starting Nmap 6.40 ( http://nmap.org ) at 2014-03-10 12:46 GMT  
+Nmap scan report for hpprinter (192.168.1.2)  
+Host is up (0.00044s latency).  
+Nmap scan report for Gordons-MBP (192.168.1.4)  
+Host is up (0.0010s latency).  
+Nmap scan report for ubuntu (192.168.1.5)  
+Host is up (0.0010s latency).  
+Nmap scan report for raspberrypi (192.168.1.8)  
+Host is up (0.0030s latency).  
+Nmap done: 256 IP addresses (4 hosts up) scanned in 2.41 seconds  
+Here you can see a device with hostname raspberrypi has IP address  192.168.1.8.  
+```
 
 ### 6.) SSH into your Pi  
 
@@ -103,9 +104,10 @@ Download PuTTY https://www.putty.org/
 
 The default credentials are:
 
-`username: pi  
-
- password: raspberry  `
+```username: pi  
+   password: raspberry 
+```  
+ 
 
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/35935951/36939810-d21f1d08-1f5d-11e8-9920-14b11917ec1c.png">
