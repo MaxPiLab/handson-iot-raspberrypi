@@ -14,20 +14,33 @@
 
 ### 1.) Download the Raspberry Pi’s operating system  
 
-Download NOOBS from [https://www.raspberrypi.org/downloads/noobs/].
+Download **NOOBS** from https://www.raspberrypi.org/downloads/noobs/
 Just download the ZIP file and Extract it to a new folder. Then you’ll have a single .img image file that contains the operating system.  
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/36939676-fffec636-1f5a-11e8-8c3e-7e220a03efec.png">
+</p>  
+
 Next we’ll need a program that can write the operating system image file onto a microSD card.
-We’ll use Win32DiskImager to do that, so download and install it.
 
 ### 2.) Download Win32DiskImager  
 
+* Download the **Win32DiskImager utility** https://www.techspot.com/downloads/5361-win32-disk-imager.html  
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/36939678-0abe5460-1f5b-11e8-9af9-b834c87faabb.png">
+</p> 
+
 * Insert the SD card into your SD card reader and check what drive letter it was assigned. You can easily see the drive letter (for   example G:) by looking in the left column of Windows Explorer.  
-* Download the Win32DiskImager utility .[https://www.techspot.com/downloads/5361-win32-disk-imager.html]  
+
 * Extract the executable from the zip file and run the Win32DiskImager utility.  
+
 * Select the image file you extracted above.  
+
 * Select the drive letter of the SD card in the device box.   
 ***NOTE: Be careful to select the correct drive; if you get the wrong one you can destroy your data on the computer's hard disk! If you are using an SD Card slot in your computer (if you have one) and can't see the drive in the Win32DiskImager window, try using a cheap Adapter in a USB slot.***  
+
 * Click Write and wait for the write to complete.  
+
 * Exit the imager and eject the SD card.  
 
  You are now ready to plug the card into your Raspberry Pi.  
@@ -56,7 +69,8 @@ password: raspberry
 
 ### 7.) Configure your Pi  
 
-That’s it! You can now configure your Pi via sudo raspi-config
+That’s it! You can now configure your Pi via sudo raspi-config  
+
 
 
 
