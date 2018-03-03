@@ -104,9 +104,10 @@ Download PuTTY https://www.putty.org/
 
 The default credentials are:  
 
-```username: pi  
-   password: raspberry 
-```  
+``` username: pi  
+    password: raspberry
+ ```  
+ 
  
 
 <p align="center"> 
