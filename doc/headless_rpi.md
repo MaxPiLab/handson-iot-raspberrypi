@@ -63,7 +63,35 @@ Power your Raspberry Pi.
 
 ### 5.) Find your Pi’s IP Address  
 
-To configure your Pi, you need the IP address. You can find this in your Router’s DHCP lease allocation table.
+It is possible to find the IP address of your Pi without connecting to a screen by many methods.Here is given one such method :
+
+**NMAP COMMAND**
+
+The nmap command (Network Mapper) is a free and open-source tool for network discovery, available for Linux, macOS, and Windows.  
+
+To use nmap to scan the devices on your network, you need to know the subnet you are connected to. First find IP address of the computer you're using to find your Pi's IP address:  
+
+On Windows, go to the Control Panel, then under  **Network and Sharing Center**, click **View network connections**, select your **active network connection** and click  **View status of this connection** to view the IP address.  
+
+Now you have the IP address of your computer, you will scan the whole subnet for other devices. For example, if your IP address is `192.168.1.5`, other devices will be at addresses like `192.168.1.2`, `192.168.1.3`, `192.168.1.4`, etc.  
+
+Now use the nmap command with the -sn flag (ping scan) on the whole subnet range. This may take a few seconds:  
+
+`nmap -sn 192.168.1.0/24`  
+
+Ping scan just pings all the IP addresses to see if they respond. For each device that responds to the ping, the output shows the hostname and IP address like so:  
+
+`Starting Nmap 6.40 ( http://nmap.org ) at 2014-03-10 12:46 GMT
+Nmap scan report for hpprinter (192.168.1.2)
+Host is up (0.00044s latency).
+Nmap scan report for Gordons-MBP (192.168.1.4)
+Host is up (0.0010s latency).
+Nmap scan report for ubuntu (192.168.1.5)
+Host is up (0.0010s latency).
+Nmap scan report for raspberrypi (192.168.1.8)
+Host is up (0.0030s latency).
+Nmap done: 256 IP addresses (4 hosts up) scanned in 2.41 seconds
+Here you can see a device with hostname raspberrypi has IP address  192.168.1.8.  `
 
 ### 6.) SSH into your Pi  
 
@@ -76,7 +104,8 @@ Download PuTTY https://www.putty.org/
 The default credentials are:
 
 `username: pi  
-password: raspberry  `
+
+ password: raspberry  `
 
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/35935951/36939810-d21f1d08-1f5d-11e8-9920-14b11917ec1c.png">
@@ -85,7 +114,7 @@ password: raspberry  `
 
 ### 7.) Configure your Pi  
 
-`That’s it! You can now configure your Pi via sudo raspi-config  `
+You can now configure your Pi via `sudo raspi-config  `
 
 
 
