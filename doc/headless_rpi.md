@@ -17,6 +17,7 @@ Here are the steps to give a headless start to your Raspberry Pi
 Download **NOOBS** from https://www.raspberrypi.org/downloads/noobs/  
 
 Just download the ZIP file and Extract it to a new folder.  
+
 Then you’ll have a single .img image file that contains the operating system.  
 
 <p align="center"> 
@@ -50,7 +51,11 @@ Next we’ll need a program that can write the operating system image file onto 
  
  ### 3.) Add “SSH” File to the SD Card Root  
  
-Enable SSH by placing a file named “ssh” (without any extension) onto the boot partition of the SD card.
+Enable SSH by placing a file named “ssh” (without any extension) onto the boot partition of the SD card.  
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/36939814-dca280ee-1f5d-11e8-86d0-792d5609bbd5.png">
+</p> 
 
 ### 4.) Boot your Pi  
 
@@ -62,7 +67,7 @@ To configure your Pi, you need the IP address. You can find this in your Router�
 
 ### 6.) SSH into your Pi  
 
-Now we need a way to access the Raspberry Pi’s command prompt. We can do this with a remote SSH client called PuTTY. 
+Now we need a way to access the Raspberry Pi’s command prompt. We can do this with a remote SSH client called **PuTTY**. 
 PuTTY establishes an SSH connection between the Raspberry Pi and another computer.
 It opens up a window that gives you access to the Raspberry Pi’s command prompt.  
 
@@ -70,13 +75,18 @@ Download PuTTY https://www.putty.org/
 
 The default credentials are:
 
-<username: pi
-password: raspberry  
+`username: pi  
+password: raspberry  `
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/36939810-d21f1d08-1f5d-11e8-9920-14b11917ec1c.png">
+</p> 
 
 
 ### 7.) Configure your Pi  
 
-<That’s it! You can now configure your Pi via sudo raspi-config  
+`That’s it! You can now configure your Pi via sudo raspi-config  `
+
 
 
 
