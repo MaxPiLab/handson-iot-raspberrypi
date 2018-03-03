@@ -59,7 +59,7 @@ Enable SSH by placing a file named “ssh” (without any extension) onto the bo
 
 ### 4.) Boot your Pi  
 
-Power your Raspberry Pi.
+Power on your Raspberry Pi and connect it to your laptop.
 
 ### 5.) Find your Pi’s IP Address  
 
@@ -102,7 +102,7 @@ It opens up a window that gives you access to the Raspberry Pi’s command promp
 
 Download PuTTY https://www.putty.org/  
 
-The default credentials are:
+The default credentials are:  
 
 ```username: pi  
    password: raspberry 
