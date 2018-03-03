@@ -45,6 +45,12 @@ Next we’ll need a program that can write the operating system image file onto 
 
 * Click Write and wait for the write to complete.  
 
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/36940102-dadfdd06-1f62-11e8-9582-9213e328c4d8.png">
+</p> 
+
+
+
 * Exit the imager and eject the SD card.  
 
  You are now ready to plug the card into your Raspberry Pi.  
@@ -119,14 +125,4 @@ The default credentials are:
 ### 7.) Configure your Pi  
 
 You can now configure your Pi via `sudo raspi-config  `
-
-
-
-
-
-
-
-
-
-
 
