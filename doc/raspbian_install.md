@@ -1,18 +1,16 @@
 # How to Install RASPBIAN for your Raspberry Pi
 
-Raspbian is the Foundation’s official supported operating system for all models of the Raspberry Pi.It's called Raspbian because it's a portmanteau of Raspberry and **Debian**(a Linux distribution).It's the best choice for general use.  
+Raspbian is the Foundation’s official supported operating system for all models of the Raspberry Pi. It's called Raspbian because it's a portmanteau of Raspberry and **Debian** (a Linux distribution). It's the best choice for general use.  
 
 Raspbian comes pre-installed with plenty of software for education, programming and general use. It has **Python, Scratch, Sonic Pi, Java, Mathematica** and more.  
 
-You can install it with <a href="https://www.raspberrypi.org/downloads/noobs/">NOOBS</a> (just installer for Raspbian), or you can write a Raspbian image directly.  
+You can install it with <a href="https://www.raspberrypi.org/downloads/noobs/"> NOOBS </a> (just installer for Raspbian), or you can write a Raspbian image directly.  
 
-## 1.) Installing from NOOBS
-
-## 2.) Installing Raspbian directly
+Here, are the steps to install Raspbian directly
 
 ### Download the image
 
-Download <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian image</a>directly.  
+Download <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian image</a> directly.  
 
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/35935951/36966202-03e62d02-2082-11e8-958e-f02d2826e1fe.png">
@@ -28,7 +26,9 @@ To uncompress the archive, a unzip tool that supports ZIP64 is required. The fol
 
 ### Write image to SD Card  
 
-You will need to use an image writing tool to install the image you have downloaded on your SD card.  
+You will need to use an image writing tool to install the image you have downloaded on your SD card. There are many such tools available to do so. You can either use **Etcher or Win32DiskImager** and many more.  
+
+Here, we are using Etcher for writing the image to SD Card.  
 
 **Etcher** is a graphical SD card writing tool that works on Mac OS, Linux and Windows, and is the easiest option for most users.  
 Etcher also supports writing images directly from the zip file, without any unzipping required.  
@@ -40,10 +40,15 @@ Etcher also supports writing images directly from the zip file, without any unzi
 To write your image with Etcher:  
 
 1.) Download <a href="https://etcher.io/">Etcher<a/> and install it.  
+  
 2.) Connect an SD card reader with the SD card inside.  
+
 3.) Open Etcher and select from your hard drive the Raspberry Pi .img or  .zip file you wish to write to the SD card.  
+
 4.) Select the SD card you wish to write your image to.  
+
 5.) Review your selections and click 'Flash!' to begin writing data to the SD card.  
+
   
   
   
