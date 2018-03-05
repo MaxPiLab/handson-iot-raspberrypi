@@ -6,7 +6,7 @@
 
 
 
-## What is a Raspberry Pi?
+## What is Raspberry Pi?
 
 **1.)**  The Rasperry Pi is a **microprocessor** based single-board computer (SBC).  
 
@@ -26,7 +26,7 @@
 * Have good knowledge about Linux and softwares.  
  
 
-## Waht is Arduino?
+## What is Arduino?
 
 **1.)**  The Arduino is a **microcontroller** based board and a self contained chip.  
 
