@@ -4,7 +4,7 @@ Raspbian is the Foundation’s official supported operating system for all model
 
 Raspbian comes pre-installed with plenty of software for education, programming and general use. It has **Python, Scratch, Sonic Pi, Java, Mathematica** and more.  
 
-You can install it with **NOOBS**(just installer for Raspbian), or you can write a Raspbian image directly.  
+You can install it with <a href="https://www.raspberrypi.org/downloads/noobs/">NOOBS</a> (just installer for Raspbian), or you can write a Raspbian image directly.  
 
 ## 1.) Installing from NOOBS
 
@@ -34,4 +34,7 @@ To write your image with Etcher:
 3.) Open Etcher and select from your hard drive the Raspberry Pi .img or  .zip file you wish to write to the SD card.  
 4.) Select the SD card you wish to write your image to.  
 5.) Review your selections and click 'Flash!' to begin writing data to the SD card.  
+
+
+
 
