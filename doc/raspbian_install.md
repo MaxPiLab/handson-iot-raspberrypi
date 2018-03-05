@@ -6,6 +6,8 @@ Raspbian comes pre-installed with plenty of software for education, programming 
 
 You can install it with <a href="https://www.raspberrypi.org/downloads/noobs/"> NOOBS </a> (just installer for Raspbian), or you can write a Raspbian image directly.  
 
+Here is the link to Install Raspbian through NOOBS https://www.raspberrypi.org/help/noobs-setup/2/.
+
 Here, are the steps to install Raspbian directly
 
 ### Download the image
