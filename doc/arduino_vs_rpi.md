@@ -1,13 +1,10 @@
 # Arduino vs. Raspberry Pi
 
-|**Feature**|**Raspberry Pi**|**Arduino**|
-|:-----------:|:----------------:|:----------:|
-|**Programming Language**|	No limit	|Arduini, C/C++|
-|**Processor Speed**|	700 MHz|	16MHz|
-|**Internet connection very easy**|	Not easy|	Doable|
-|**Hardware design**|	Closed source|	Open source|
-|**Real time**|	Hardware realtime|	In real time|
-|**Analog to Digital**|	No	|Yes|
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/36996808-b942568e-20dd-11e8-96ad-61d7ee64a5fa.jpg">
+</p>
+
+
 
 ## What is a Raspberry Pi?
 
@@ -39,17 +36,18 @@ If your project is very limited hardware interaction, but is slightly complex on
 4.) Arduino is hence used for development of simple embedded system applications.
 
 Arduino is more rugged and has a much wider operating voltage range. You can easily burn your Raspberry Pi with a 0.5 V more or less than 5V needed.
-
 ## When is Arduino a good choice??
 
 If your project requires you to interact with a lot of external hardware requirements, then you should consider using Arduino.
 On the other hand, if your project requires a lot, so you have to write a complex software entire software stack or protocols, then Arduino may not be the best options.
  
+All differences between Arduino and Raspberry Pi can be summarized as :  
 
-
-
-
-
-
-
-
+|**Feature**|**Raspberry Pi**|**Arduino**|
+|:-----------:|:----------------:|:----------:|
+|**Programming Language**|	No limit	|Arduini, C/C++|
+|**Processor Speed**|	700 MHz|	16MHz|
+|**Internet connection very easy**|	Not easy|	Doable|
+|**Hardware design**|	Closed source|	Open source|
+|**Real time**|	Hardware realtime|	In real time|
+|**Analog to Digital**|	No	|Yes|
