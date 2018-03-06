@@ -263,6 +263,6 @@ Displays the network configuration details for the interfaces on the current sys
 (i.e. ifconfig).  
 
 <p align="center"> 
-<img src="(https://user-images.githubusercontent.com/35935951/37063303-fd900b60-21be-11e8-8d62-ca42b439de9b.png">
+<img src="https://user-images.githubusercontent.com/35935951/37063303-fd900b60-21be-11e8-8d62-ca42b439de9b.png">
 </p>
 
