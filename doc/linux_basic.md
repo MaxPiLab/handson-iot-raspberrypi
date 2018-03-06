@@ -24,13 +24,25 @@ Displays the name of the current working directory, i.e. pwd will output somethi
 
 **mkdir**  
 
-Creates a new directory..  
+Creates a new directory.  
 
 **rmdir**  
 
 Deletes the specified directory or folder, provided it is already empty.  
 ***NOTE**:But rmdir can only be used to delete an empty directory.*  
 To delete a directory containing files, use **rm**.  
+
+<pre>
+<b>maxpi@ubantu:~/Desktop$ ls  
+maxpi@ubantu:~/Desktop$ mkdir handson_rpi  
+maxpi@ubantu:~/Desktop$ ls  
+handson_rpi  
+maxpi@ubantu:~/Desktop$ rmdir handson_rpi  
+maxpi@ubantu:~/Desktop$ ls  
+maxpi@ubantu:~/Desktop$
+</b>
+</pre>
+
 
 
 
