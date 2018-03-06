@@ -18,6 +18,7 @@ Used for going back to the previous directory.
 Displays the name of the current working directory, i.e. pwd will output something like /home/pi.  
 
 `maxpi@ubantu:~/Desktop$ pwd   
+
 /home/maxpi/Desktop`
 
 **mkdir**  
