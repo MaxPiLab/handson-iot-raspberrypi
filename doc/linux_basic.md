@@ -6,13 +6,13 @@
 
 Lists the content of the current directory (or one that is specified).  
 
-**ls -l**  
+   **ls -l**  
 
-Displays additional information (permissions, owner, group, size, date and timestamp of last edit) about each file and directory in a list format.  
+   Displays additional information (permissions, owner, group, size, date and timestamp of last edit) about each file and directory in a    list format.  
 
-**ls -a**  
+   **ls -a**  
 
-Displays hidden files.  
+   Displays hidden files.  
 
 <pre>
 <b>maxpi@ubantu:~/Desktop$ ls  
@@ -28,10 +28,11 @@ maxpi@ubantu:~/Desktop$
 
 **cd**  
 
-Changes the current directory to the one specified.Can use relative (i.e. cd directoryA) or absolute (i.e. cd /home/pi/directoryA) paths.  
+Changes the current directory to the one specified. Can use relative (i.e. cd directoryA) or absolute (i.e. cd /home/maxpi/directoryA) paths.  
 
-**cd..**  
-Used for going back to the previous directory.  
+   **cd..**  
+   
+   Used for going back to the previous directory.  
 
 <pre>
 <b>maxpi@ubantu:~/Desktop$ ls  
@@ -43,7 +44,7 @@ maxpi@ubantu:~/Desktop$
 
 **pwd**  
 
-Displays the name of the current working directory, i.e. pwd will output something like /home/pi.  
+Displays the name of the current working directory.  
 
 <pre>
 <b>maxpi@ubantu:~/Desktop$ pwd   
@@ -57,8 +58,8 @@ Creates a new directory.
 **rmdir**  
 
 Deletes the specified directory or folder, provided it is already empty.  
+
 ***NOTE**:But rmdir can only be used to delete an empty directory.*  
-To delete a directory containing files, use **rm**.  
 
 <pre>
 <b>maxpi@ubantu:~/Desktop$ ls  
@@ -73,7 +74,7 @@ maxpi@ubantu:~/Desktop$
 
 **rm**  
 
-Use the rm command to delete files and directories having files in it. But simply rm cannot delete a directory. Use **rm -r** to delete a directory. In this case, it deletes both the folder and the files in it.  
+To delete a directory containing files, use **rm**. Use the rm command to delete files and directories having files in it. But simply rm cannot delete a directory. Use **rm -r** to delete a directory. In this case, it deletes both the folder and the files in it.  
 
 <pre>
 <b>maxpi@ubantu:~/Desktop$ ls  
@@ -89,7 +90,7 @@ maxpi@ubantu:~/Desktop$
 
 **cp**  
 
-Makes a copy of a file and places it at the specified location.This command can either take FILE FILE (cp fileA fileB), FILE DIR (cp fileA /directoryB/) or -r DIR DIR. Syntax is **cp (source file) (target location)**.  
+Makes a copy of a file and places it at the specified location. This command can either take `FILE FILE` `(cp fileA fileB)`, `FILE DIR` `(cp fileA /directoryB/)` or `-r DIR DIR`. Syntax for cp command is **cp (source file) (target location)**.  
 
 <pre>
 <b>maxpi@ubantu:~/Desktop$ ls  
@@ -104,8 +105,7 @@ maxpi@ubantu:~/Desktop$
 
 **mv**  
 
-Moves a file and places it at the specified location (so where cp performs a **copy-paste**, mv performs a **cut-paste**).This command can either take FILE FILE (mv fileA fileB), FILE DIR (mv fileA /directoryB/) or 
-DIR DIR (mv /directoryB /directoryC) as arguments.This command is also useful as a method to rename files and directories after they've been created.  
+Moves a file and places it at the specified location (so where cp performs a **copy-paste**, mv performs a **cut-paste**).This command can either take `FILE FILE` `(mv fileA fileB)`, `FILE DIR` `(mv fileA /directoryB/)` or `DIR DIR` `(mv /directoryB /directoryC)` as arguments.This command is also useful as a method to rename files and directories after they've been created.   
 
 <pre>
 <b>maxpi@ubantu:~/Desktop$ ls   
@@ -132,17 +132,15 @@ maxpi@ubantu:~/Desktop$
 
 **cat**  
 
-Lists the contents of file(s). Can be used to list the contents of multiple files, i.e. cat *.txt will list the contents of all .txt files in the current directory.  
+Lists the contents of file(s). Can be used to list the contents of multiple files, i.e. `cat *.txt` will list the contents of all .txt files in the current directory.  
 
 **head**  
 
-Displays the beginning of a file. Can be used with -n to specify the number of lines to show (by default 10), 
-or with -c to specify the number of bytes.  
+Displays the beginning of a file. Can be used with -n to specify the number of lines to show (by default 10), or with **-c** to specify the number of bytes.  
 
 **tail**  
 
-Displays the end of a file. The starting point in the file can be specified either through -b for 512 byte blocks,
--c for bytes, or -n for number of lines.  
+Displays the end of a file. The starting point in the file can be specified either through **-b** for 512 byte blocks,**-c** for bytes, or **-n** for number of lines.  
 
 **chmod**  
 
@@ -165,8 +163,7 @@ maxpi@ubantu:~/Desktop$
 
 **chown**  
 
-Changes the user and/or group that owns a file. It normally needs to be run as root using sudo (SuperUser Do) e.g. sudo chown pi:
-root *filename* will change the owner to pi and the group to root.  
+Changes the user and/or group that owns a file. It normally needs to be run as root using sudo (SuperUser Do) e.g. sudo chown pi:root *filename* will change the owner to pi and the group to root.  
 
 **ssh**  
 
@@ -183,12 +180,13 @@ Run a command as a superuser, or another user. Use sudo -s for a superuser shell
 **dd**  
 
 Copies a file converting the file as specified. It is often used to copy an entire disk to a single file or back again 
-eg. dd if=/dev/sdd of=backup.img will create a backup image from an SD card or USB disk drive at /dev/sdd. 
+eg. `dd if=/dev/sdd of=backup.img` will create a backup image from an SD card or USB disk drive at /dev/sdd.  
+
 ***NOTE**:Make sure to use the correct drive when copying an image to the SD card as it can overwrite the entire disk.*   
 
 **df**  
 
-Display the disk space available and used on the mounted filesystems. Use df -h to see the output in a human readable format using M for MBs rather than showing number of bytes.  
+Display the disk space available and used on the mounted filesystems. Use `df -h` to see the output in a human readable format using M for MBs rather than showing number of bytes.  
 
 **unzip**  
 
@@ -197,14 +195,11 @@ Extracts the files from a compressed zip file.
 **tar**  
 
 Store or extract files from a tape archive file. It can also reduce the space required by compressing the file similar to a zip file.
-To create a compressed file use tar -cvzf *filename.tar.gz* *directory/*To extract the contents of a file 
-use tar -xvzf *filename.tar.gz*  
+To create a compressed file use `tar -cvzf *filename.tar.gz* *directory/*`.To extract the contents of a file use `tar -xvzf *filename.tar.gz* `.   
 
 **pipes**  
 
-A pipe allows the output from one command to be used as the input for another command. 
-The pipe symbol is a vertical line |. For example to only show the first 10 entries of the ls command it can be piped through 
-the head command ls | head  
+A pipe allows the output from one command to be used as the input for another command. The pipe symbol is a vertical line `|`. For example to only show the first 10 entries of the `ls` command it can be piped through the head command `ls | head`.  
 
 **tree**  
 
@@ -216,8 +211,8 @@ Run a command in the background freeing up the shell for future commands.
 
 **wget**  
 
-Download a file from the web directly to the computer e.g. wget http://www.raspberrypi.org/documentation/linux/usage/commands.md 
-will download this file to your computer as commands.md  
+Download a file from the web directly to the computer e.g. `wget http://www.raspberrypi.org/documentation/linux/usage/commands.md `
+will download this file to your computer as `commands.md`.   
 
 **curl**  
 
@@ -225,13 +220,11 @@ Download or upload a file to/from a server. By default it will output the file c
 
 **man**  
 
-Show the manual page for a file. To find out more run man man to view the manual page of the man command.  
+Show the manual page for a file. To find out more run `man man` to view the manual page of the man command.  
 
 **searchgrep**  
 
-Search inside files for certain search patterns e.g. grep "search" *.txt will look in all the files in the current 
-directory ending with .txt for the string search.
-Supports regular expressions which allows special letter combinations to be included in the search.  
+Search inside files for certain search patterns e.g. `grep search *.txt` will look in all the files in the current directory ending with .txt for the string search. Supports regular expressions which allows special letter combinations to be included in the search.  
 
 **awk**  
 
