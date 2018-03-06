@@ -1,17 +1,45 @@
-FILESYSTEM  
+# Basic LINUX Commands
+
+## FILESYSTEM  
+
 **ls**  
 
-Lists the content of the current directory (or one that is specified).   
+Lists the content of the current directory (or one that is specified).  
+
 **ls -l**  
-Displays additional information (permissions, owner, group, size, date and timestamp of last edit) about each file and directory in a list format.   
+
+Displays additional information (permissions, owner, group, size, date and timestamp of last edit) about each file and directory in a list format.  
+
 **ls -a**  
+
 Displays hidden files.  
+
+<pre>
+<b>maxpi@ubantu:~/Desktop$ ls  
+handson-iot-raspberrypi  
+handson-voice-kit  
+maxpi@ubantu:~/Desktop$ ls -l  
+total 4  
+drwxrwxrwx. maxpi maxpi 450 Feb 1 12:00 handson-iot-raspberrypi    
+drwxrwxrwx. maxpi maxpi 200 Feb 16 16:10 handson-voice-kit     
+maxpi@ubantu:~/Desktop$  
+</b>
+</pre>  
 
 **cd**  
 
 Changes the current directory to the one specified.Can use relative (i.e. cd directoryA) or absolute (i.e. cd /home/pi/directoryA) paths.  
+
 **cd..**  
 Used for going back to the previous directory.  
+
+<pre>
+<b>maxpi@ubantu:~/Desktop$ ls  
+handson-voice-kit  handson-iot-raspberrypi  
+maxpi@ubantu:~/Desktop$ cd handson-voice-kit  
+maxpi@ubantu:~/Desktop/handson-voice-kit$ cd ..  
+maxpi@ubantu:~/Desktop$  
+</b></pre>
 
 **pwd**  
 
@@ -104,7 +132,7 @@ maxpi@ubantu:~/Desktop$
 
 **cat**  
 
-Lists the contents of file(s).Can be used to list the contents of multiple files, i.e. cat *.txt will list the contents of all .txt files in the current directory.  
+Lists the contents of file(s). Can be used to list the contents of multiple files, i.e. cat *.txt will list the contents of all .txt files in the current directory.  
 
 **head**  
 
@@ -217,7 +245,7 @@ Searches a directory and subdirectories for files matching certain patterns.
 
 Finds the location or a command. Looks through standard program locations until it finds the requested command.  
 
-**NETWORKING**  
+## NETWORKING 
 
 **ping**
 
