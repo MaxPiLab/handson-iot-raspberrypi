@@ -242,7 +242,11 @@ Finds the location or a command. Looks through standard program locations until 
 
 **ping**
 
-Use ping to check if communication can be made with another host. Wikipedia says, **Ping is a computer network administration software utility used to test the reachability of a host on an Internet Protocol (IP) network**. Simply, when you type in, for example, **ping raspberrypi.org**, it checks if it can connect to the server and come back. It measures this round-trip time and gives you the details about it.    
+Use ping to check if communication can be made with another host. Wikipedia says, **Ping is a computer network administration software utility used to test the reachability of a host on an Internet Protocol (IP) network**. Simply, when you type in, for example, **ping raspberrypi.org**, it checks if it can connect to the server and come back. It measures this round-trip time and gives you the details about it.   
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37063312-03eca0c2-21bf-11e8-95dd-790593b869a1.png">
+</p>
 
 **nmap**  
 
@@ -256,4 +260,9 @@ argument `hostname new-host`.
 **ifconfig**  
 
 Displays the network configuration details for the interfaces on the current system when run without any arguments 
-(i.e. ifconfig).
+(i.e. ifconfig).  
+
+<p align="center"> 
+<img src="(https://user-images.githubusercontent.com/35935951/37063303-fd900b60-21be-11e8-8d62-ca42b439de9b.png">
+</p>
+
