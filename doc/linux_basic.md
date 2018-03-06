@@ -1,29 +1,38 @@
-FILESYSTEM 
-**LS**  
+FILESYSTEM  
+**ls**  
 
-Lists the content of the current directory (or one that is specified).  
-Can be used with the -l flag to display additional information (permissions, owner, group, size, date and timestamp of last edit) about 
-each file and directory in a list format.  
-The -a flag allows you to view files beginning with . (i.e. dotfiles).  
+Lists the content of the current directory (or one that is specified).   
+**ls -l**  
+Displays additional information (permissions, owner, group, size, date and timestamp of last edit) about each file and directory in a list format.   
+**ls -a**  
+Displays hidden files.  
 
-**CD**  
+**cd**  
 
-Changes the current directory to the one specified.  
-Can use relative (i.e. cd directoryA) or absolute (i.e. cd /home/pi/directoryA) paths.  
+Changes the current directory to the one specified.Can use relative (i.e. cd directoryA) or absolute (i.e. cd /home/pi/directoryA) paths.  
+**cd..**  
+Used for going back to the previous directory.  
 
-**PWD**  
+**pwd**  
 
 Displays the name of the current working directory, i.e. pwd will output something like /home/pi.  
 
-**MKDIR**  
+> **maxpi@ubantu:~/Desktop$ pwd
+/home/maxpi/Desktop
 
-Makes a new directory, e.g. mkdir newDir would create the directory newDir in the present working directory.  
+**mkdir**  
 
-**RMDIR**  
+Creates a new directory..  
 
-Remove empty directories, e.g. rmdir oldDir will remove the directory oldDironly if it is empty.  
+**rmdir**  
 
-**RM**  
+Deletes the specified directory or folder, provided it is already empty.  
+***NOTE**:But rmdir can only be used to delete an empty directory.*  
+To delete a directory containing files, use **rm**.  
+
+
+
+**rm**  
 
 Removes the specified file (or recursively from a directory when used with -r).  
 
