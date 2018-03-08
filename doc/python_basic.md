@@ -39,13 +39,23 @@ Lists are very similar to arrays. They can contain any type of variable, and the
 Lists can also be iterated over in a very simple manner. Here is an example of how to build a list.  
 
 |Function|Description|
-|:--------:|-----------|
+|--------|-----------|
 |**append()**|Add a single element to the end of the list|
 |**extend()**|Add all elements of a list to the another list|
 |**pop()**|Removes and returns an element at the given index|
-|**del()**|We can delete one or more items from a list using the keyword del.  It can even delete the list entirely|
+|**del()**|We can delete one or more items from a list using the keyword del.
+           It can even delete the list entirely|
 |**remove()**| Removes an item from the list|
 |**insert()**| Insert an item at the defined index|
 |**reverse()**|Reverse the order of items in the list|
 |**sort()**|Sort items in a list in ascending order|
-|**len()**|Gives the total number of elements in list|
+|**len()**|Gives the total number of elements in list|  
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37181010-422be71a-2351-11e8-835b-850a5375d8a0.png">
+</p>
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37181015-4996bed0-2351-11e8-9c11-e77bbd087fe9.png">
+</p>
+
