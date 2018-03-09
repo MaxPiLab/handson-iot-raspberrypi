@@ -53,18 +53,6 @@ Lists can also be iterated over in a very simple manner. Here is an example of h
 |**sort()**|Sort items in a list in ascending order|
 |**len()**|Gives the total number of elements in list|  
 
-#### LIST SLICES
-
-Slice operator works on list. This is used to display more than one selected values on the output screen.Slices are treated as boundaries and the result will contain all the elements between boundaries.
-
-**Syntax**:  
-example=Listnmae[start: stop: step]
-Where start, stop & step - all three are optional. If you omit first index, slice starts from '0' and omitting of
-stop will take it to end. Default value of step is 1.
-
-
-
-
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/35935951/37181010-422be71a-2351-11e8-835b-850a5375d8a0.png">
 </p>
@@ -72,4 +60,20 @@ stop will take it to end. Default value of step is 1.
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/35935951/37181015-4996bed0-2351-11e8-9c11-e77bbd087fe9.png">
 </p>
+
+
+
+#### LIST SLICES
+
+Slice operator works on list. This is used to display more than one selected values on the output screen.Slices are treated as boundaries and the result will contain all the elements between boundaries.
+
+**Syntax**:  
+example=Listname[start: stop: step]
+Where start, stop & step - all three are optional. If you omit first index, slice starts from '0' and omitting of
+stop will take it to end. Default value of step is 1.  
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37191601-afdaab7c-2386-11e8-8479-f4dc18dfed78.png">
+</p>
+
 
