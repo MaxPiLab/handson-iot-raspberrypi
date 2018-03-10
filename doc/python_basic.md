@@ -44,12 +44,14 @@ It can have any number of elements and they may be of different types (integer, 
 
 Also, a list can even have another list as its element. This is called nested list.  
 
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37242091-8056d070-2489-11e8-8b4a-a640c8074f69.png">
+</p>  
+
 ### Accessing List elements
 
 We can use the index operator [] to access an item in a list. Index starts from 0 i.e, first element of the list has index 0 and so on.  
-<p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37181010-422be71a-2351-11e8-835b-850a5375d8a0.png">
-</p>
+
 
 ### List SLICES
 
@@ -61,7 +63,7 @@ Where start, stop & step - all three are optional. If you omit first index, slic
 stop will take it to end. Default value of step is 1.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37191601-afdaab7c-2386-11e8-8479-f4dc18dfed78.png">
+<img src="https://user-images.githubusercontent.com/35935951/37242094-8c6ce1e2-2489-11e8-8856-9deab62dc97e.png">
 </p>  
 
 ### List METHODS
@@ -80,7 +82,7 @@ stop will take it to end. Default value of step is 1.
 |**len()**|Gives the total number of elements in list|  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37192126-b8952fdc-2389-11e8-83fc-65d46267284e.png">
+<img src="https://user-images.githubusercontent.com/35935951/37242096-93fb7374-2489-11e8-93ec-ce1bdc2c37c2.png">
 </p>  
 
 ### Other Built-in Functions for List operations
@@ -232,7 +234,7 @@ For loops iterate over a given sequence.
 For loops can iterate over a sequence of numbers using the **range** and **xrange** functions. The difference between range and xrange is that the range function returns a new list with numbers of that specified range, whereas xrange returns an iterator, which is more efficient. (Python 3 uses the range function, which acts like xrange).    
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37192126-b8952fdc-2389-11e8-83fc-65d46267284e.png">
+<img src="https://user-images.githubusercontent.com/35935951/37242076-43a05ff2-2489-11e8-9372-710b132b68f4.png">
 </p>  
 
 ### *while* loop   
@@ -240,7 +242,7 @@ For loops can iterate over a sequence of numbers using the **range** and **xrang
 While loops repeat as long as a certain boolean condition is met.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37192126-b8952fdc-2389-11e8-83fc-65d46267284e.png">
+<img src="https://user-images.githubusercontent.com/35935951/37242066-ffebdaca-2488-11e8-9423-a2aa1f01503f.png">
 </p>  
 
 ### *break* and *continue* statements
@@ -248,7 +250,7 @@ While loops repeat as long as a certain boolean condition is met.
 `break` is used to exit a for loop or a while loop, whereas `continue` is used to skip the current block, and return to the for or while statement.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37192126-b8952fdc-2389-11e8-83fc-65d46267284e.png">
+<img src="https://user-images.githubusercontent.com/35935951/37242057-e807ff7e-2488-11e8-8889-183950e61f86.png">
 </p>  
 
 ## Functions
@@ -276,7 +278,18 @@ Functions are a convenient way to divide your code into useful blocks, allowing 
 Simply write the function's name followed by (), placing any required arguments within the brackets. For example, lets call the functions written above (in the previous example):  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37192126-b8952fdc-2389-11e8-83fc-65d46267284e.png">
-</p>
+<img src="https://user-images.githubusercontent.com/35935951/37242056-e41b14f0-2488-11e8-9cb6-5557ad5a6bae.png">
+</p>  
+
+![function]()
+![breakcontinue]()
+
+![while]()
+![for]()
+
+![listbasics]()
+![listslice]()
+![listfunction]()
+
 
 
