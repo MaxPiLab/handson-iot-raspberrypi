@@ -45,7 +45,11 @@ In this project we will be controlling the rotation of a servo motor using pytho
 3.	When a new terminal opens, copy and paste the program code in the file_name.py and save it by using **ctrl x** and then pressing **Y** when prompted.
 4.	Run the program by using the command **python file_name.py**
 
-**NOTE**:
+#### NOTE
+The program code for this project is in the **src folder**. The following program codes can be used:
+1. servo.py
+2. servo_tk.py
+
 *When **servo_tk.py** is run the servo can be controlled with the slider
 When **servo.py** is run the servo is controlled by the duration of the pulse given*
 	
