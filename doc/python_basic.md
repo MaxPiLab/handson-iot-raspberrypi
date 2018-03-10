@@ -196,7 +196,7 @@ Here are some basic argument specifiers :
 %x/%X - Integers in hex representation (lowercase/uppercase)
 ```  
 
-#### Basic String Operations
+### Basic String Operations
 
 Strings are bits of text. They can be defined as anything between quotes:  
 
@@ -296,7 +296,8 @@ Functions are a convenient way to divide your code into useful blocks, allowing 
 
 ### Syntax functions in Python
 
-```def function_name(parameters[optional]):  
+```
+   def function_name(parameters[optional]):  
 	  statement(s)
 ```  
 
