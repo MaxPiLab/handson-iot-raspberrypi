@@ -41,3 +41,5 @@ In this project we will be checking the temperature and humidity of the room usi
 3.	When a new terminal opens, copy and paste the program code in the file_name.py and save it by using **ctrl x** and then pressing **Y** when prompted.
 4.	Run the program by using the command **python file_name.py** and check the temperature displayed on the screen by the DHT11 module.
 
+#### NOTE
+Program code for this project is in **src folder** with the name **dht11_example.py**. **dht11.py** is the library used in the program **dht11_example.py** 
