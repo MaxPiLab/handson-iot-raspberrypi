@@ -250,7 +250,7 @@ Here are some examples for objects which are considered as empty:
 4. The false boolean variable: False  
 
 <p align="center"> 
-<img src="">
+<img src="https://user-images.githubusercontent.com/35935951/37243428-25af0582-249f-11e8-8c78-86a83ec7cd93.png">
 </p> 
 
 ## Loops
