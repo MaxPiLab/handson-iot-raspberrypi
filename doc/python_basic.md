@@ -31,14 +31,14 @@ Keep in mind the following things while naming an identifier:
 3. Constants are put into Python modules and meant not be changed.  
 4. Constant and variable names should have combination of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore (_).  
 
-Every value in Python has a datatype.  
+Every value in Python has a datatype. It is categorized in Python as:
 
 <p align="center"> 
-<img src="">
+<img src="https://user-images.githubusercontent.com/35935951/37243095-45c8dcf8-249a-11e8-8017-44b58b0504d3.png">
 </p>   
 
 <p align="center"> 
-<img src="">
+<img src="https://user-images.githubusercontent.com/35935951/37243102-57b7782a-249a-11e8-8206-b8d3cfde39c2.jpg">
 </p> 
 
 ## List
@@ -55,7 +55,7 @@ It can have any number of elements and they may be of different types (integer, 
 Also, a list can even have another list as its element. This is called nested list.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37242091-8056d070-2489-11e8-8b4a-a640c8074f69.png">
+<img src="https://user-images.githubusercontent.com/35935951/37243085-1cc95a12-249a-11e8-917f-66e78c5906b1.png">
 </p>  
 
 ### Accessing List elements
@@ -72,7 +72,7 @@ Where start, stop & step - all three are optional. If you omit first index, slic
 stop will take it to end. Default value of step is 1.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37242094-8c6ce1e2-2489-11e8-8856-9deab62dc97e.png">
+<img src="https://user-images.githubusercontent.com/35935951/37243087-24cdd65c-249a-11e8-85a5-b129bcd6e5dc.png">
 </p>  
 
 ### List METHODS
@@ -91,7 +91,7 @@ stop will take it to end. Default value of step is 1.
 |**len()**|Gives the total number of elements in list|  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37242096-93fb7374-2489-11e8-93ec-ce1bdc2c37c2.png">
+<img src="https://user-images.githubusercontent.com/35935951/37243089-2e190c36-249a-11e8-85b6-68d0ae3af72a.png">
 </p>  
 
 ### Other Built-in Functions for List operations
@@ -119,15 +119,15 @@ Just as any other programming languages, the addition, subtraction, multiplicati
 
 ### 2. Relational Operators
 
-Relational operators compares the values. It either returns True or False according to the condition. For example, >,<,==,!=,<=,>= .  
+Relational operators compares the values. It either returns True or False according to the condition. For example, `>,<,==,!=,<=,>=` .  
 
 ### 3. Logical operators
 
-Logical operators perform Logical AND, Logical OR and Logical NOT operations. For example, and,or,not.  
+Logical operators perform Logical AND, Logical OR and Logical NOT operations. For example, `and,or,not`.  
 
 ### 4. Bitwise operators
 
-Logical operators perform Logical AND, Logical OR and Logical NOT operations. For example, &,|,~,^,>>,<<.  
+Logical operators perform Logical AND, Logical OR and Logical NOT operations. For example,` &,|,~,^,>>,<<`.  
 
 ### 5. Assignment operators
 
@@ -157,34 +157,38 @@ Just as in strings, Python supports forming new lists with a repeating sequence 
 
 ## String Formatting
 
-Python uses C-style string formatting to create new, formatted strings. The "%" operator is used to format a set of variables enclosed in a "tuple" (a fixed size list), together with a format string, which contains normal text together with "argument specifiers", special symbols like "%s" and "%d".  
+Python uses C-style string formatting to create new, formatted strings. The **%** operator is used to format a set of variables enclosed in a "tuple" (a fixed size list), together with a format string, which contains normal text together with "argument specifiers", special symbols like "%s" and "%d".  
 
-Let's say you have a variable called "name" with your user name in it, and you would then like to print out a greeting to that user.  
-
-`# This prints out "Hello, John!"  
+```
+# This prints out "Hello, John!"  
 name = "John"  
-print "Hello, %s!" % name`   
+print "Hello, %s!" % name
+```   
+To use two or more argument specifiers, use a tuple (parentheses):     
 
-To use two or more argument specifiers, use a tuple (parentheses):   
-
-`# This prints out "John is 23 years old."  
+```
+# This prints out "John is 23 years old."  
 name = "John"  
 age = 23  
-print "%s is %d years old." % (name, age)`  
+print "%s is %d years old." % (name, age)
+```  
+Any object which is not a string can be formatted using the %s operator as well.  
 
-Any object which is not a string can be formatted using the %s operator as well. The string which returns from the "repr" method of that object is formatted as the string. For example:  
-
-`# This prints out: A list: [1, 2, 3]  
+```
+# This prints out: A list: [1, 2, 3]  
 mylist = [1,2,3]  
-print "A list: %s" % mylist`  
+print "A list: %s" % mylist  
+```  
 
-Here are some basic argument specifiers you should know:  
+Here are some basic argument specifiers :  
 
-`%s - String (or any object with a string representation, like numbers)  
+```
+%s - String (or any object with a string representation, like numbers)  
 %d - Integers  
 %f - Floating point numbers  
 %.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.  
-%x/%X - Integers in hex representation (lowercase/uppercase)`  
+%x/%X - Integers in hex representation (lowercase/uppercase)
+```  
 
 #### Basic String Operations
 
@@ -200,10 +204,12 @@ As you can see, the first thing you learned was printing a simple sentence. This
 
 Python uses boolean variables to evaluate conditions. The boolean values True and False are returned when an expression is compared or evaluated. For example:  
 
-`x = 2  
+```
+x = 2  
 print x == 2 # prints out True  
 print x == 3 # prints out False  
-print x < 3 # prints out True`  
+print x < 3 # prints out True
+```  
 
 Notice that variable assignment is done using a single equals operator "=", whereas comparison between two variables is done using the double equals operator =* .The not equals operator is marked as !=.   
 
@@ -213,7 +219,8 @@ The `if…elif…else` statement is used in Python for decision making.
 
 ### Syntax of if-else block
 
-```if <test expression>:  
+```
+if <test expression>:  
     <do something>  
        ....  
        ....  
@@ -229,9 +236,19 @@ else:
     
 Here, the program evaluates the test expression and will execute statement(s) only if the **text expression is True**.If the text expression is False, the statement(s) is not executed. 
 
-A statement is evaulated as true if one of the following is correct: 1. The "True" boolean variable is given, or calculated using an expression, such as an arithmetic comparison. 2. An object which is not considered "empty" is passed.  
+A statement is evaulated as true if one of the following is correct:  
+1. The "True" boolean variable is given, or calculated using an expression, such as an arithmetic comparison.  
+2. An object which is not considered "empty" is passed.  
 
-Here are some examples for objects which are considered as empty: 1. An empty string: "" 2. An empty list: [] 3. The number zero: 0 4. The false boolean variable: False  
+Here are some examples for objects which are considered as empty:  
+1. An empty string: ""  
+2. An empty list: []  
+3. The number zero: 0  
+4. The false boolean variable: False  
+
+<p align="center"> 
+<img src="">
+</p> 
 
 ## Loops
 
@@ -244,7 +261,7 @@ For loops iterate over a given sequence.
 For loops can iterate over a sequence of numbers using the **range** and **xrange** functions. The difference between range and xrange is that the range function returns a new list with numbers of that specified range, whereas xrange returns an iterator, which is more efficient. (Python 3 uses the range function, which acts like xrange).    
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37242076-43a05ff2-2489-11e8-9372-710b132b68f4.png">
+<img src="https://user-images.githubusercontent.com/35935951/37243082-1131c84c-249a-11e8-82b0-49f9f7c2e831.png">
 </p>  
 
 ### *while* loop   
@@ -252,7 +269,7 @@ For loops can iterate over a sequence of numbers using the **range** and **xrang
 While loops repeat as long as a certain boolean condition is met.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37242066-ffebdaca-2488-11e8-9423-a2aa1f01503f.png">
+<img src="https://user-images.githubusercontent.com/35935951/37243081-089bea00-249a-11e8-954b-e7980b68e73d.png">
 </p>  
 
 ### *break* and *continue* statements
@@ -260,7 +277,7 @@ While loops repeat as long as a certain boolean condition is met.
 `break` is used to exit a for loop or a while loop, whereas `continue` is used to skip the current block, and return to the for or while statement.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37242057-e807ff7e-2488-11e8-8889-183950e61f86.png">
+<img src="https://user-images.githubusercontent.com/35935951/37243079-0161b31e-249a-11e8-99ae-9871076663cb.png">
 </p>  
 
 ## Functions
@@ -285,9 +302,18 @@ Functions are a convenient way to divide your code into useful blocks, allowing 
 
 ### Function calling in Python  
 
-Simply write the function's name followed by (), placing any required arguments within the brackets. For example, lets call the functions written above (in the previous example):  
+Simply write the function's name followed by (), placing any required arguments within the brackets.  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37242056-e41b14f0-2488-11e8-9cb6-5557ad5a6bae.png">
+<img src="https://user-images.githubusercontent.com/35935951/37243075-f7e1da94-2499-11e8-9126-18a356d6896f.png">
 </p>  
+
+![function1]()
+![bc1]
+![while1]()
+![for1]()
+![listbasics]()
+![listslice]()
+![listfunction]()
+
 
