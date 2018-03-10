@@ -27,8 +27,6 @@ type. Every variable in Python is an object.
 
 #### 1. Integer
 
-``` myint=2```
-
 #### 2. Floating Point Number
 
 ``` myfloat=2.0```
