@@ -23,6 +23,7 @@ Here, the built-in function **print()** is used, to print out a string to the sc
 ## Variables and Types
 
 In Python, a variable is a named location used to store data in the memory. Each variable must have a unique name called **identifier**.  
+
 ***Note**: In Python we don't assign values to the variables, whereas Python gives the reference of the object (value) to the variable.*  
 
 Keep in mind the following things while naming an identifier:  
@@ -148,11 +149,13 @@ Python also supports multiplying strings to form a string with a repeating seque
 
 ### Using Operators with Lists  
 
-`Lists can be joined with the addition operators:  
+Lists can be joined with the addition operators:  
 
+```
 even_numbers = [2,4,6,8]  
 odd_numbers = [1,3,5,7]   
-all_numbers = odd_numbers + even_numbers`   
+all_numbers = odd_numbers + even_numbers
+```   
 
 Just as in strings, Python supports forming new lists with a repeating sequence using the multiplication operator:  
 
@@ -160,7 +163,7 @@ Just as in strings, Python supports forming new lists with a repeating sequence 
 
 ## String Formatting
 
-Python uses C-style string formatting to create new, formatted strings. The **%** operator is used to format a set of variables enclosed in a "tuple" (a fixed size list), together with a format string, which contains normal text together with "argument specifiers", special symbols like "%s" and "%d".  
+Python uses C-style string formatting to create new, formatted strings. The **%** operator is used to format a set of variables enclosed in a "tuple" (a fixed size list), together with a format string, which contains normal text together with **argument specifiers**, special symbols like **%s** and **%d**.  
 
 ```
 # This prints out "Hello, John!"  
@@ -293,8 +296,9 @@ Functions are a convenient way to divide your code into useful blocks, allowing 
 
 ### Syntax functions in Python
 
-`def function_name(parameters[optional]):  
-	  statement(s)`  
+```def function_name(parameters[optional]):  
+	  statement(s)
+```  
 
 1. Keyword `def` indicates the start of function header.  
 2. A **function name** to uniquely identify it. Function naming follows the same rules of writing identifiers in Python.  
