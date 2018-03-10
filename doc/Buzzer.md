@@ -45,5 +45,6 @@ In this project we are going to write a Morse code using a **Buzzer**. The conne
 3.	When a new terminal opens, copy and paste the program code in the file_name.py and save it by using **ctrl x** and then pressing **Y** when prompted.
 4.	To run the program use the command **python file_name.py** or **sudo python file_name.py**
 
-
+#### NOTE
+Program code for this project is in **src folder** with the name **buzzer.py**
 
