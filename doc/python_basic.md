@@ -24,6 +24,7 @@ Here, the built-in function **print()** is used, to print out a string to the sc
 
 In Python, a variable is a named location used to store data in the memory. Each variable must have a unique name called **identifier**.  
 ***Note**: In Python we don't assign values to the variables, whereas Python gives the reference of the object (value) to the variable.*  
+
 Keep in mind the following things while naming an identifier:  
 
 1. Never use special symbols like !, @, #, $, %, etc.
@@ -34,11 +35,13 @@ Keep in mind the following things while naming an identifier:
 Every value in Python has a datatype. It is categorized in Python as:
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37243095-45c8dcf8-249a-11e8-8017-44b58b0504d3.png">
+<img src="https://user-images.githubusercontent.com/35935951/37243102-57b7782a-249a-11e8-8206-b8d3cfde39c2.jpg">
 </p>   
 
+Data type of an identifier can be known by using **type()** function.  
+
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37243102-57b7782a-249a-11e8-8206-b8d3cfde39c2.jpg">
+<img src="https://user-images.githubusercontent.com/35935951/37243095-45c8dcf8-249a-11e8-8017-44b58b0504d3.png">
 </p> 
 
 ## List
@@ -307,13 +310,3 @@ Simply write the function's name followed by (), placing any required arguments 
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/35935951/37243075-f7e1da94-2499-11e8-9126-18a356d6896f.png">
 </p>  
-
-![function1]()
-![bc1]
-![while1]()
-![for1]()
-![listbasics]()
-![listslice]()
-![listfunction]()
-
-
