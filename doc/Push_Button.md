@@ -44,4 +44,5 @@ In this project we will learning how to use a push button and its functions. The
 2.	When a new terminal open copy and paste the program code in the file_name.py and save it by using **ctrl x** and then pressing **Y** when prompted.
 3.	To run the program use the command **python file_name.py**
 
-
+#### NOTE
+The program code for this project is in **src folder** with the name **button.py**
