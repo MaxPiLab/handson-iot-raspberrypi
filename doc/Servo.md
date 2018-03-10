@@ -18,8 +18,9 @@ When these servos are commanded to move, they will move to the position and hold
 
 #### HARDWARE COMPONENTS
 1.	Raspberry Pi 3 (Model B)		**X1**
-2.	Jumper wires (Male to Female)		**X3**
-3.	Servo motor				**X1**
+2.	Breadboard (Optional)			**x1**
+3.	Jumper wires (Female to Female)		**X3**
+4.	Servo motor				**X1**
 
 #### SOFTWARE COMPONENTS
 1.	Python 3.5 (IDLE)
