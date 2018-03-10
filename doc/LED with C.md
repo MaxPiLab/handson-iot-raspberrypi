@@ -54,7 +54,8 @@ b.	**sudo apt-get upgrade**
 4.	To run the c program use **sudo ./file_name**
 5.	When the program is run you can see the LED blinking
 
-**NOTE :-** *file_name used in the program is blink.c*
+#### NOTE
+Program code for this project is in **src folder** with the name **blink.c**
 
 
 
