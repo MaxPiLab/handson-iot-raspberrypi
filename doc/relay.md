@@ -58,8 +58,8 @@ In this project we will be using Relay as a magnetic switch to turn on and turn 
 5.	We can observe the bulb turn on and then turn off after a brief amount of time. 
 
 
-##### NOTE
-*Program code for this project is in **src** folder with the name **relay.py***
+#### NOTE
+Program code for this project is in **src folder** with the name **relay.py**
 
 
 
