@@ -40,7 +40,9 @@ In this project we are going to light up LED with the help of Raspberry Pi and p
 
 #### NOTE
 The program codes are available in the **src folder**. The following codes can be used:
-1. blink.py
-2. blink_forever.py
+1. on.py
+2. off.py
+3. blink.py
+4. blink_forever.py
 
 
