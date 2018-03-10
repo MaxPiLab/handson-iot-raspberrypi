@@ -15,21 +15,31 @@
 ## Hello, World!
 
 ```
-print "Hello World!"
-print("Hello World!")
-```
+print "Hello World!"  
+```  
+
+Here, the built-in function **print()** is used, to print out a string to the screen. **String** is the value inside the quotation marks, i.e. Hello world!  
+
 ## Variables and Types
 
-Python is completely object oriented, and not "statically typed". You do not need to declare variables before using them, or declare their
-type. Every variable in Python is an object.  
+In Python, a variable is a named location used to store data in the memory. Each variable must have a unique name called **identifier**.  
+***Note**: In Python we don't assign values to the variables, whereas Python gives the reference of the object (value) to the variable.*  
+Keep in mind the following things while naming an identifier:  
 
-### Numbers
+1. Never use special symbols like !, @, #, $, %, etc.
+2. Don't start name with a digit.  
+3. Constants are put into Python modules and meant not be changed.  
+4. Constant and variable names should have combination of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore (_).  
 
-#### 1. Integer
+Every value in Python has a datatype.  
 
-#### 2. Floating Point Number
+<p align="center"> 
+<img src="">
+</p>   
 
-``` myfloat=2.0```
+<p align="center"> 
+<img src="">
+</p> 
 
 ## List
 
@@ -51,7 +61,6 @@ Also, a list can even have another list as its element. This is called nested li
 ### Accessing List elements
 
 We can use the index operator [] to access an item in a list. Index starts from 0 i.e, first element of the list has index 0 and so on.  
-
 
 ### List SLICES
 
@@ -204,7 +213,7 @@ The `if…elif…else` statement is used in Python for decision making.
 
 ### Syntax of if-else block
 
-`if <test expression>:  
+```if <test expression>:  
     <do something>  
        ....  
        ....  
@@ -215,9 +224,10 @@ elif <test expression>:
        ....  
        
 else:  
-    <do another thing>`  
+    <do another thing>
+```  
     
-Here, the program evaluates the test expression and will execute statement(s) only if the text expression is True.If the text expression is False, the statement(s) is not executed. 
+Here, the program evaluates the test expression and will execute statement(s) only if the **text expression is True**.If the text expression is False, the statement(s) is not executed. 
 
 A statement is evaulated as true if one of the following is correct: 1. The "True" boolean variable is given, or calculated using an expression, such as an arithmetic comparison. 2. An object which is not considered "empty" is passed.  
 
@@ -280,16 +290,4 @@ Simply write the function's name followed by (), placing any required arguments 
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/35935951/37242056-e41b14f0-2488-11e8-9cb6-5557ad5a6bae.png">
 </p>  
-
-![function]()
-![breakcontinue]()
-
-![while]()
-![for]()
-
-![listbasics]()
-![listslice]()
-![listfunction]()
-
-
 
