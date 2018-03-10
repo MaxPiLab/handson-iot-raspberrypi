@@ -33,12 +33,12 @@ type. Every variable in Python is an object.
 
 ``` myfloat=2.0```
 
-### List
+## List
 
 Lists are very similar to arrays. They can contain any type of variable, and they can contain as many variables as you wish. 
 Lists can also be iterated over in a very simple manner.  
 
-#### Creating List
+### Creating List
 
 In Python, a list can be created by writing all the elements inside a square bracket [ ], separated by commas.  
 
@@ -46,14 +46,14 @@ It can have any number of elements and they may be of different types (integer, 
 
 Also, a list can even have another list as its element. This is called nested list.  
 
-#### Accessing List elements
+### Accessing List elements
 
 We can use the index operator [] to access an item in a list. Index starts from 0 i.e, first element of the list has index 0 and so on.  
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/35935951/37181010-422be71a-2351-11e8-835b-850a5375d8a0.png">
 </p>
 
-#### List SLICES
+### List SLICES
 
 Slice operator works on list. This is used to display more than one selected values on the output screen.Slices are treated as boundaries and the result will contain all the elements between boundaries.
 
@@ -66,7 +66,7 @@ stop will take it to end. Default value of step is 1.
 <img src="https://user-images.githubusercontent.com/35935951/37191601-afdaab7c-2386-11e8-8479-f4dc18dfed78.png">
 </p>  
 
-#### List METHODS
+### List METHODS
 
 |Function|Description|
 |--------|-----------|
@@ -85,7 +85,7 @@ stop will take it to end. Default value of step is 1.
 <img src="https://user-images.githubusercontent.com/35935951/37192126-b8952fdc-2389-11e8-83fc-65d46267284e.png">
 </p>  
 
-#### Other Built-in Functions for List operations
+### Other Built-in Functions for List operations
 
 |Function|Description|
 |--------|-----------|
@@ -93,9 +93,9 @@ stop will take it to end. Default value of step is 1.
 |**max()**|Return the largest element in the list|
 |**min()**|Return the smallest item in the list|  
 
-### Basic Operators
+## Basic Operators
 
-#### 1. Arithematic Operators
+### 1. Arithematic Operators
 
 Just as any other programming languages, the addition, subtraction, multiplication, and division operators can be used with numbers.  
 
@@ -108,45 +108,45 @@ Just as any other programming languages, the addition, subtraction, multiplicati
 |//|Division (floor): divides the first operand by the second|x//y|
 |%|Modulus: returns the remainder when first operand is divided by the second|x % y|  
 
-#### Using Operators with Strings
+### 2. Relational Operators
+
+Relational operators compares the values. It either returns True or False according to the condition. For example, >,<,==,!=,<=,>= .  
+
+### 3. Logical operators
+
+Logical operators perform Logical AND, Logical OR and Logical NOT operations. For example, and,or,not.  
+
+### 4. Bitwise operators
+
+Logical operators perform Logical AND, Logical OR and Logical NOT operations. For example, &,|,~,^,>>,<<.  
+
+### 5. Assignment operators
+
+Assignment operators are used to assign values to the variables.  
+
+### Using Operators with Strings
 
 Python supports concatenating strings using the addition operator:  
 
-`helloworld = "hello" + " " + "world"`
+`helloworld = "hello" + " " + "world"`  
 
-Python also supports multiplying strings to form a string with a repeating sequence:
+Python also supports multiplying strings to form a string with a repeating sequence:  
 
 `lotsofhellos = "hello" * 10`  
 
-#### Using Operators with Lists
+### Using Operators with Lists  
 
 `Lists can be joined with the addition operators:  
 
 even_numbers = [2,4,6,8]  
-odd_numbers = [1,3,5,7]  
-all_numbers = odd_numbers + even_numbers`  
+odd_numbers = [1,3,5,7]   
+all_numbers = odd_numbers + even_numbers`   
 
 Just as in strings, Python supports forming new lists with a repeating sequence using the multiplication operator:  
 
 `print [1,2,3] * 3`  
 
-#### 2. Relational Operators
-
-Relational operators compares the values. It either returns True or False according to the condition. For example, >,<,==,!=,<=,>= .  
-
-#### 3. Logical operators
-
-Logical operators perform Logical AND, Logical OR and Logical NOT operations. For example, and,or,not.  
-
-#### 4. Bitwise operators
-
-Logical operators perform Logical AND, Logical OR and Logical NOT operations. For example, &,|,~,^,>>,<<.  
-
-#### 5. Assignment operators
-
-Assignment operators are used to assign values to the variables.  
-
-### String Formatting
+## String Formatting
 
 Python uses C-style string formatting to create new, formatted strings. The "%" operator is used to format a set of variables enclosed in a "tuple" (a fixed size list), together with a format string, which contains normal text together with "argument specifiers", special symbols like "%s" and "%d".  
 
@@ -154,16 +154,16 @@ Let's say you have a variable called "name" with your user name in it, and you w
 
 `# This prints out "Hello, John!"  
 name = "John"  
-print "Hello, %s!" % name`  
+print "Hello, %s!" % name`   
 
-To use two or more argument specifiers, use a tuple (parentheses):  
+To use two or more argument specifiers, use a tuple (parentheses):   
 
 `# This prints out "John is 23 years old."  
 name = "John"  
 age = 23  
 print "%s is %d years old." % (name, age)`  
 
-Any object which is not a string can be formatted using the %s operator as well. The string which returns from the "repr" method of that object is formatted as the string. For example:
+Any object which is not a string can be formatted using the %s operator as well. The string which returns from the "repr" method of that object is formatted as the string. For example:  
 
 `# This prints out: A list: [1, 2, 3]  
 mylist = [1,2,3]  
@@ -187,7 +187,7 @@ As you can see, the first thing you learned was printing a simple sentence. This
 
 `print len(astring)`  
 
-### Conditions
+## Conditions
 
 Python uses boolean variables to evaluate conditions. The boolean values True and False are returned when an expression is compared or evaluated. For example:  
 
@@ -196,106 +196,89 @@ print x == 2 # prints out True
 print x == 3 # prints out False  
 print x < 3 # prints out True`  
 
-Notice that variable assignment is done using a single equals operator "=", whereas comparison between two variables is done using the double equals operator "==". The "not equals" operator is marked as "!=".  
+Notice that variable assignment is done using a single equals operator "=", whereas comparison between two variables is done using the double equals operator =* .The not equals operator is marked as !=.   
 
-### Loops
+Decision making is required when we want to execute a code only if a certain condition is satisfied.  
+
+The `if…elif…else` statement is used in Python for decision making.  
+
+### Syntax of if-else block
+
+`if <test expression>:  
+    <do something>  
+       ....  
+       ....  
+       
+elif <test expression>:  
+    <do something else>  
+       ....  
+       ....  
+       
+else:  
+    <do another thing>`  
+    
+Here, the program evaluates the test expression and will execute statement(s) only if the text expression is True.If the text expression is False, the statement(s) is not executed. 
+
+A statement is evaulated as true if one of the following is correct: 1. The "True" boolean variable is given, or calculated using an expression, such as an arithmetic comparison. 2. An object which is not considered "empty" is passed.  
+
+Here are some examples for objects which are considered as empty: 1. An empty string: "" 2. An empty list: [] 3. The number zero: 0 4. The false boolean variable: False  
+
+## Loops
 
 There are two types of loops in Python, for and while.  
 
-**The *"for"* loop**  
+### *for* loop 
 
-For loops iterate over a given sequence. Here is an example:  
+For loops iterate over a given sequence.  
 
-`primes = [2, 3, 5, 7]  
-for prime in primes:  
-print prime`  
+For loops can iterate over a sequence of numbers using the **range** and **xrange** functions. The difference between range and xrange is that the range function returns a new list with numbers of that specified range, whereas xrange returns an iterator, which is more efficient. (Python 3 uses the range function, which acts like xrange).    
 
-For loops can iterate over a sequence of numbers using the "range" and "xrange" functions. The difference between range and xrange is that the range function returns a new list with numbers of that specified range, whereas xrange returns an iterator, which is more efficient. (Python 3 uses the range function, which acts like xrange). Note that the xrange function is zero based.  
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37192126-b8952fdc-2389-11e8-83fc-65d46267284e.png">
+</p>  
 
-`# Prints out the numbers 0,1,2,3,4  
-for x in xrange(5): # or range(5)  
-print x  
+### *while* loop   
 
-# Prints out 3,4,5  
-for x in xrange(3, 6): # or range(3, 6)  
-print x  
+While loops repeat as long as a certain boolean condition is met.  
 
-# Prints out 3,5,7  
-for x in xrange(3, 8, 2): # or range(3, 8, 2)  
-print x`  
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37192126-b8952fdc-2389-11e8-83fc-65d46267284e.png">
+</p>  
 
-***"while"* loops**  
+### *break* and *continue* statements
 
-While loops repeat as long as a certain boolean condition is met. For example:  
+`break` is used to exit a for loop or a while loop, whereas `continue` is used to skip the current block, and return to the for or while statement.  
 
-`# Prints out 0,1,2,3,4  
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37192126-b8952fdc-2389-11e8-83fc-65d46267284e.png">
+</p>  
 
-count = 0  
-while count < 5:  
-print count  
-count += 1`  
+## Functions
 
-***"break"* and *"continue"* statements**
+### What are *Functions?*
 
-break is used to exit a for loop or a while loop, whereas continue is used to skip the current block, and return to the "for" or "while" statement. A few examples:  
-
-`# Prints out 0,1,2,3,4  
-
-count = 0  
-while True:  
-print count  
-count += 1  
-if count >= 5:  
-break  
-
-# Prints out only odd numbers - 1,3,5,7,9  
-
-for x in xrange(10):  
-# Check if x is even  
-if x % 2 == 0:  
-continue  
-print x  `  
-
-### Functions
-
-**What are ***Functions?**
+In Python, function is a group of related statements that perform a specific task.  
 
 Functions are a convenient way to divide your code into useful blocks, allowing us to order our code, make it more readable, reuse it and save some time. Also functions are a key way to define interfaces so programmers can share their code.  
 
-**How do you write functions in Python?**
+### Syntax functions in Python
 
-As we have seen on previous tutorials, Python makes use of blocks. A block is a area of code of written in the format of:  
+`def function_name(parameters[optional]):  
+	  statement(s)`  
 
-`block_head:  
-1st block line  
-2nd block line  
-...`  
+1. Keyword `def` indicates the start of function header.  
+2. A **function name** to uniquely identify it. Function naming follows the same rules of writing identifiers in Python.  
+3. **Parameters** (arguments) through which we pass values to a function. They are optional.  
+4. A colon (**:**) to mark the end of function header.  
+5. One or more valid python statements that make up the **function body**.  
+6. An optional **return** statement to return a value from the function.  
 
-Where a block line is more Python code (even another block), and the block head is of the following format: block_keyword block_name(argument1,argument2, ...) Block keywords you already know are "if", "for", and "while". Functions in python are defined using the block keyword "def", followed with the function's name as the block's name. For example:  
-
-`def my_function():  
-print "Hello From My Function!"`  
-
-Functions may also receive arguments (variables passed from the caller to the function). For example:  
-
-`def my_function_with_args(username, greeting):  
-print "Hello, %s , From My Function!, I wish you %s"%(username, greeting)`  
-
-Functions may return a value to the caller, using the keyword- 'return' . For example:  
-
-`def sum_two_numbers(a, b):  
-return a + b`  
-
-**How do you call functions in Python?**  
+### Function calling in Python  
 
 Simply write the function's name followed by (), placing any required arguments within the brackets. For example, lets call the functions written above (in the previous example):  
 
-`# print a simple greeting  
-my_function()  
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37192126-b8952fdc-2389-11e8-83fc-65d46267284e.png">
+</p>
 
-#prints - "Hello, John Doe, From My Function!, I wish you a great year!"  
-my_function_with_args("John Doe", "a great year!")  
-
-# after this line x will hold the value 3!
-x = sum_two_numbers(1,2)`
 
