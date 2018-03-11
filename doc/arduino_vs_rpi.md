@@ -56,4 +56,4 @@ Now, all differences between Arduino and Raspberry Pi can be summarized as :
 |**Real time**|	Hardware realtime|	In real time|
 |**Inbuilt Analog to Digital Converter**|	No	|Yes|
 |**Multitasking**|Yes|No|
-|**Integrated Developement Environment**|Arduino|Scratch,IDLE,anything with Linux support|
+|**Integrated Developement Environment**|Scratch,IDLE,anything with Linux support|Arduino|
