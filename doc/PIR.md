@@ -41,3 +41,5 @@ The connections are made as per the circuit diagram. The breadboard is just acti
 4.	After the program is run a text appears on the screen *PIR Module Test*. When a movement is made in front of the PIR, we can observe on the screen that motion has been detected. 
 5.	The text will appear on the screen depending on the delay time of the PIR sensor.
 
+#### NOTE
+The program code for this project is in the **src folder** with the name **pir.py**

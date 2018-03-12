@@ -24,15 +24,25 @@ In this project we are going to light up LED with the help of Raspberry Pi and p
 ![](https://github.com/11RO05/handson-iot-raspberrypi/blob/master/circuit-diagram/LED.png)
 
 ### INSTRUCTIONS
-1.	Insert the Micro SD card containing the Raspbian OS into the Raspberry Pi 3. The slot for the Micro SD is at the bottom of the Pi.
-2.	Connect the Raspberry Pi 3 to a monitor (output device) with the help of a HDMI cable. If your monitor is VGA type then you should have a HDMI to VGA 	converter. 
-3.	Connect the mouse and keyboard (input devices) in the USB slots provided (4 slots)
-4.	Power up the Pi by connecting it to a power supply and wait for the Raspbian OS to load (This may take some time)
-5.	Make the connections as per the circuit diagrams. (You can make the connections before connecting the input and output devices as well)
-6.	Go to menu and open python3 from the programming menu.
-7.	Type the given code in the IDLE window.
-8.	Save the file with an extension of “.py” (extension used while saving Python files)
-9.	Run the program and see the LED’s turn ON and OFF.
+#### Setting up the Hardware Part
+1.	Insert the Micro SD card containing the Raspbian OS into the Raspberry Pi 3. (The slot for the Micro SD is at the bottom of the Pi.)
+1.	Connect the Raspberry Pi 3 to a monitor (output device) with the help of a HDMI cable. (If your monitor is VGA type then you should have a HDMI to VGA converter.) 
+2.	Connect the mouse and keyboard (input devices) in the USB slots provided (4 slots)
+3.	Power up the Pi by connecting it to a power supply and wait for the Raspbian OS to load (This may take some time)
+4.	Make the connections as per the circuit diagrams. (You can make the connections before connecting the input and output devices as well)
 
+#### Running the program / Making the LED glow
+1.	Open the terminal and go to the required directory by using the command **cd path_of_the_directory** (example:- **cd Desktop** - *Changes the directory to Desktop*)
+2.	Create a new python file in the required directory by typing **nano file_name.py** (giving the extension **.py** tells the terminal to create a python file) 
+3.	When a new terminal opens, copy and paste the program code in the file_name.py and save it by using **ctrl x** and then pressing **Y** when prompted.
+4.	Run the program by using the command **python file_name.py**
+5.  When the program is run we can observe the LED glow. 
+
+#### NOTE
+The program codes are available in the **src folder**. The following codes can be used:
+1. on.py
+2. off.py
+3. blink.py
+4. blink_forever.py
 
 

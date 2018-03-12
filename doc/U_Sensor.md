@@ -45,3 +45,8 @@ In this project we will be measuring the distance of a particular object using t
 5.	To run the program use the command **python file_name.py**
 6.	The distance between the object and the ultrasonic sensor is calculated and displayed on the screen.
 
+#### NOTE
+The program code for this project is in the **src folder**. The following program codes can be used:
+1. u_sonic.py
+2. u_sonic2.py
+3. hc-sr04.py **(Availble in src/old folder)**

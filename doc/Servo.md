@@ -18,8 +18,9 @@ When these servos are commanded to move, they will move to the position and hold
 
 #### HARDWARE COMPONENTS
 1.	Raspberry Pi 3 (Model B)		**X1**
-2.	Jumper wires (Male to Female)		**X3**
-3.	Servo motor				**X1**
+2.	Breadboard (Optional)			**x1**
+3.	Jumper wires (Female to Female)		**X3**
+4.	Servo motor				**X1**
 
 #### SOFTWARE COMPONENTS
 1.	Python 3.5 (IDLE)
@@ -44,7 +45,11 @@ In this project we will be controlling the rotation of a servo motor using pytho
 3.	When a new terminal opens, copy and paste the program code in the file_name.py and save it by using **ctrl x** and then pressing **Y** when prompted.
 4.	Run the program by using the command **python file_name.py**
 
-**NOTE**:
+#### NOTE
+The program code for this project is in the **src folder**. The following program codes can be used:
+1. servo.py
+2. servo_tk.py
+
 *When **servo_tk.py** is run the servo can be controlled with the slider
 When **servo.py** is run the servo is controlled by the duration of the pulse given*
 	

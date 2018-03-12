@@ -37,3 +37,6 @@ In this project we will be learning how an **Light Dependent Resistor** works. T
 6.	Different values from the LDR is displayed on the screen according to the amount of brightness in the room. The same is written to the file **foo.txt** along with the current date and time.
 7.	Before running the program again make sure to delete the contents of the file foo.txt otherwise it will get added to the file after the previous run values.
 
+#### NOTE
+Program code for this project is in **src folder** with the name **ldr.py**. The date and time are stored in the text file with the name **foo.txt**
+
