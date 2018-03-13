@@ -1,6 +1,6 @@
 # What is a Sensor ???
 
-A sensor is a device that detects and responds to some type of input from the physical environment.The output is generally a signal that is converted to human-readable display at the sensor location or transmitted electronically over a network for reading or further processing.  
+A sensor is a device that detects and responds to some type of input from the physical environment. The output is generally a signal that is converted to human-readable display at the sensor location or transmitted electronically over a network for reading or further processing.  
 
 It is a device that converts signals from one energy domain to electrical domain.  
 
@@ -10,29 +10,12 @@ Perforamnce of any device/instrument is measured using certain charecteristics, 
 
 ### 1. Sensitivity
 
-The sensitivity of the sensor is defined as the slope of the output characteristic curve (dy/dx) or, more generally,**the minimum input 
-of physical parameter that will create a detectable output change.**  
+The sensitivity of the sensor is defined as the slope of the output characteristic curve (**dy/dx**) or, more generally,**the minimum input of physical parameter that will create a detectable output change.**  
 In some sensors, the sensitivity is defined as the input parameter change required to produce a standardized output change.  
 
-For example, in an electronic temperature sensing system, if the output voltageincreases by 1 V, when temperature changes by 0.1 C,
-then the sensitivity will be 10 V/ C.  
-
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37358369-f37f352c-2710-11e8-83f4-4c9842f9b329.png">
-</p>  
-
-<p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37358379-f9cfd2ec-2710-11e8-88d8-2c7106ce5608.png">
-</p>  
-
-<p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37358401-07cb750e-2711-11e8-8143-84956732c872.png">
+<img src="https://user-images.githubusercontent.com/35935951/37358951-5fdf4a3a-2712-11e8-8c06-d62553683836.png">
 </p>
-
-<p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/37358414-10e94f08-2711-11e8-8293-1f36be41db94.jpg">
-</p>
-
 
 ### 2. Range
 
@@ -40,39 +23,42 @@ The range of the sensor is the maximum and minimum values of applied parameter t
 
 ### 3. Resolution
 
-This specification is the smallest detectable incremental change of input parameter that can be detected in the output signal. 
+It is the minimal change of the input necessary to produce a detectable change at the output.    
 Resolution can be expressed either as a proportion of the reading (or the full-scale reading) or in absolute terms.  
 
 ### 4. Accuracy
 
-The accuracy of the sensor is the maximum difference that will exist between the actual value (which must be measured by a primary or 
-good secondary standard) and the indicated value at the output of the sensor. Again, the accuracy can be expressed either as a 
-percentage of full scale or in absolute terms.  
+It is the capacity of a measuring instrument to give **RESULTS close to the TRUE VALUE of the measured quantity**.  
+* Depends on inherent limitation of the sensor as well as on shortcoming of measurement process.  
+* Accuracy is usually expressed as *accurate to within x percent*.  
+* Accuracy is specified either of the following forms:  
+
 
 ### 5. Precision
 
-The concept of precision refers to the **degree of reproducibility** of a measurement. In other words, if exactly the same value were measured 
-a number of times, an ideal sensor would output exactly the same value every time. But real sensors output a range of values distributed 
-in some manner relative to the actual correct value.
+The concept of precision refers to the **degree of reproducibility** of a measurement. In other words, Precision is the capacity of a measuring instrument to give the same reading when repetitively measuring the same quantity under the same prescribed conditions.  
+* Precision implies agreement between successive readings, NOT closeness to the true value.  
+* Precision is related to the variance of a set of measurements.  
+* Precision is a necessary but not sufficient condition for accuracy. Two terms closely related to precision Repeatability and   Reproducibility.  
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37358369-f37f352c-2710-11e8-83f4-4c9842f9b329.png">
+</p>
 
 ### 6.  Linearity
 
-The linearity of the transducer is an expression of the extent to which the actual measured curve of a sensor departs from the ideal
-curve. Figure 3 shows a somewhat exaggerated relationship between the ideal, or least squares fit, line and the actual measured or 
-calibration line (Note in most cases, the static curve is used to determine linearity, and this may deviate somewhat from a dynamic 
-linearity) Linearity is often specified in terms of percentage of nonlinearity, which is defined as:
+The closeness of the calibration curve to a specified straight line shows the linearity of a sensor.  
+* Its degree of resemblance to a straight line describes how linear a system is.  
+* For an accurate measurement the sensor should follow linear relationship.  
 
-ty.  
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37358963-662b63e2-2712-11e8-93b0-d7614ce1ae2f.jpg">
+</p>
 
 ### 7. Repeatability
 
 When all operating and environmental conditions remain constant, repeatability is the sensing system’s ability to produce the same 
-response for successive measurements.Repeatability is closely related to precision. Both long-term and short-term repeatability estimates
-can be important for a sensing system.  
-
-For a temperature sensing system, when ambient temperature remains constant at 21.0 C, if the system shows 21.0, 21.1, and 21.0 C in 
-1 min intervals, and shows 22.0, 22.1, and 22.2 C after 1 h, in similar 1 min intervals, the system has a good short-term and poor 
-long-term repeatability.  
+response for successive measurements.Repeatability is closely related to precision. Both long-term and short-term repeatability estimates can be important for a sensing system.  
 
 ### 8. Reproducibility
 
@@ -87,11 +73,30 @@ Stability is a sensing system’s ability to produce the same output value when 
 
 ### 10. Calibaration
 
-An instrument’s Accuracy is a measure of its output‘s veracity
-An instrument’s Resolution is a measure of the smallest increment or decrement in position that it can measure
-A position measuring instrument’s Precision its degree of reproducibility.
-A position measuring instrument’s Linearity is a measurement of the deviation between a transducer’s output to the actual displacement being measured
+A procedure that involves a comparison of the particular instrument with either a primary standard or a secondary standard with a higher accuracy than the instrument is to be calibrated.  
 
+From the above definitions, it can be concluded that:  
 
+1.) An instrument’s Accuracy is a measure of its output‘s veracity.  
+2.) An instrument’s Resolution is a measure of the smallest increment or decrement in position that it can measure.  
+3.) A position measuring instrument’s Precision its degree of reproducibility.  
+4.) A position measuring instrument’s Linearity is a measurement of the deviation between a transducer’s output to the actual displacement being measured.  
 
+## Different Types of Sensors  
+
+The following is a list of different types of sensors that are commonly used in various applications. All these sensors are used for measuring one of the physical properties like Temperature, Resistance, Capacitance, Conduction, Heat Transfer etc.  
+
+* Temperature Sensor  
+* Proximity Sensor  
+* Accelerometer  
+* IR Sensor (Infrared Sensor)  
+* Pressure Sensor  
+* Light Sensor  
+* Ultrasonic Sensor  
+* Smoke, Gas and Alcohol Sensor  
+* Touch Sensor  
+* Color Sensor  
+* Humidity Sensor  
+* Tilt Sensor  
+* Flow and Level Sensor  
 
