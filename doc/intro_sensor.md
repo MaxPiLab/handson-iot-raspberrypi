@@ -73,13 +73,13 @@ Stability is a sensing system’s ability to produce the same output value when 
 
 ### 10. Calibaration
 
-A procedure that involves a comparison of the particular instrument with either a primary standard or a secondary standard with a higher accuracy than the instrument is to be calibrated.  
+A procedure that involves a comparison of the particular instrument with either a **primary standard or a secondary standard** with a higher accuracy than the instrument is to be calibrated.  
 
 From the above definitions, it can be concluded that:  
 
-1.) An instrument’s Accuracy is a measure of its output‘s veracity.  
+1.) An instrument’s **Accuracy** is a measure of its output‘s **veracity**.  
 2.) An instrument’s Resolution is a measure of the smallest increment or decrement in position that it can measure.  
-3.) A position measuring instrument’s Precision its degree of reproducibility.  
+3.) A position measuring instrument’s **Precision** its **degree of reproducibility**.  
 4.) A position measuring instrument’s Linearity is a measurement of the deviation between a transducer’s output to the actual displacement being measured.  
 
 ## Different Types of Sensors  
