@@ -18,8 +18,21 @@ For example, in an electronic temperature sensing system, if the output voltagei
 then the sensitivity will be 10 V/ C.  
 
 <p align="center"> 
-<img src="">
+<img src="https://user-images.githubusercontent.com/35935951/37358369-f37f352c-2710-11e8-83f4-4c9842f9b329.png">
 </p>  
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37358379-f9cfd2ec-2710-11e8-88d8-2c7106ce5608.png">
+</p>  
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37358401-07cb750e-2711-11e8-8143-84956732c872.png">
+</p>
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37358414-10e94f08-2711-11e8-8293-1f36be41db94.jpg">
+</p>
+
 
 ### 2. Range
 
