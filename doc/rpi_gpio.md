@@ -27,9 +27,10 @@ To import the RPi.GPIO module:
  ### 2. Pin numbering  
  
 There are two ways of numbering the IO pins on a Raspberry Pi within RPi.GPIO.  
-The **GPIO.BOARD** option specifies that you are referring to the pins by the number of the pin the plug - i.e the numbers printed on the board (e.g. P1) and in the middle of the diagrams below.  
-The **GPIO.BCM** option means that you are referring to the pins by the **Broadcom SOC channel** number, these are the numbers after "GPIO" in the green rectangles around the outside of the below diagrams:  
 
+The **GPIO.BOARD** option specifies that you are referring to the pins by the number of the pin the plug.  
+
+The **GPIO.BCM** option means that you are referring to the pins by the **Broadcom SOC channel** number.  
 
 To specify which you are using using (mandatory):  
 
