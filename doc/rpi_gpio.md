@@ -1,11 +1,12 @@
 # Introduction to GPIO in Raspberry Pi
 
-**GPIO(general purpose input/output)** pins are one of the powerful feature of the Raspberry Pi is along the top edge of the Raspberry Pi 
-board.  
+**GPIO (general purpose input/output)** pins are one of the powerful feature of the Raspberry Pi is along the top edge of the Raspberry Pi board. Not all the pins in available on the board are GPIOs (General Purpose Input/Output). Some are power supply, others are ground connection and others are other-stuff. We can control only the GPIO pins, not the other ones.  
 
-## What are they for? What can I do with them?  
+Here, is the GPIO pi diagram of Raspberry Pi 3 model B.
 
-You can program the pins to interact in amazing ways with the real world.  
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37431024-04fbc632-27fa-11e8-88cb-c80106164e48.jpeg">
+</p>   
 
 ## Getting started with Raspberry Pi GPIO pins with Python programming  
 
@@ -17,7 +18,7 @@ following command:
 
 ## GPIO Programming workflow
 
-### 1.  Import Rpi.GPIO package  
+### 1.  Import RPi.GPIO package  
 
 To import the RPi.GPIO module:  
 
@@ -25,14 +26,10 @@ To import the RPi.GPIO module:
 
  ### 2. Pin numbering  
  
-There are two ways of numbering the IO pins on a Raspberry Pi within RPi.GPIO. The first is using the **BOARD** numbering system. 
-This refers to the pin numbers on the P1 header of the Raspberry Pi board. The advantage of using this numbering system is that 
-your hardware will always work, regardless of the board revision of the RPi. 
-You will not need to rewire your connector or change your code.  
+There are two ways of numbering the IO pins on a Raspberry Pi within RPi.GPIO.  
+The **GPIO.BOARD** option specifies that you are referring to the pins by the number of the pin the plug - i.e the numbers printed on the board (e.g. P1) and in the middle of the diagrams below.  
+The **GPIO.BCM** option means that you are referring to the pins by the **Broadcom SOC channel** number, these are the numbers after "GPIO" in the green rectangles around the outside of the below diagrams:  
 
-The second numbering system is the BCM numbers. This is a lower level way of working - it refers to the channel numbers on the
-Broadcom SOC. You have to always work with a diagram of which channel number goes to which pin on the RPi board. Your script could 
-break between revisions of Raspberry Pi boards.  
 
 To specify which you are using using (mandatory):  
 
@@ -52,14 +49,18 @@ To disable these warnings:
 
 ### Setup up a channel
 
-You need to set up every channel you are using as an input or an output. To configure a channel as an input:  
+You need to set up every channel you are using as an input or an output.  
+
+#### To configure a channel as an input:  
 
 `GPIO.setup(channel, GPIO.IN)`  
+
 (where channel is the channel number based on the numbering system you have specified (BOARD or BCM)).  
 
-To set up a channel as an output:  
+#### To set up a channel as an output:  
 
 `GPIO.setup(channel, GPIO.OUT)`  
+
 (where channel is the channel number based on the numbering system you have specified (BOARD or BCM)).  
 
 You can also specify an initial value for your output channel:  
@@ -68,7 +69,7 @@ You can also specify an initial value for your output channel:
 
 ### Setup more than one channel
 
-You can set up more than one channel per call (release 0.5.8 onwards). For example:  
+You can set up more than one channel.For example:  
 
 ```
 chan_list = [11,12]    # add as many channels as you want!  
@@ -82,8 +83,7 @@ To read the value of a GPIO pin:
 
 `GPIO.input(channel)`  
 
-(where channel is the channel number based on the numbering system you have specified (BOARD or BCM)). 
-This will return either 0 / GPIO.LOW / False or 1 / GPIO.HIGH / True.  
+(where channel is the channel number based on the numbering system you have specified (BOARD or BCM)).    
 
 #### Output
 
@@ -104,7 +104,7 @@ chan_list = [11,12]                             # also works with tuples
 GPIO.output(chan_list, GPIO.LOW)                # sets all to GPIO.LOW  
 GPIO.output(chan_list, (GPIO.HIGH, GPIO.LOW))   # sets first HIGH and second LOW  
 ```  
-### Cleanup
+### Cleanup  
 
 At the end any program, it is good practice to clean up any resources you might have used. This is no different with RPi.GPIO. 
 By returning all channels you have used back to inputs with no pull up/down, you can avoid accidental damage to your RPi by 
@@ -123,8 +123,16 @@ GPIO.cleanup(channel)
 GPIO.cleanup( (channel1, channel2) )  
 GPIO.cleanup( [channel1, channel2] )  
 ```  
+
+####  Example to turn on and turn off two LEDs connected to Raspberry Pi 
+
+Here, is the hardware circuit diagram and python code for turning two LEDs with Raspberry Pi
+
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/35935951/37431041-15152cca-27fa-11e8-9aaa-158c28e9eba4.png">
+</p>
     
-####  Example to turn on and turn off two LEDs connected to Raspberry Pi  
+##### Pythin code
     
 ```
 import RPi.GPIO as GPIO     # importing RPi.GPIO package  
@@ -148,13 +156,3 @@ print "Lights off"
 GPIO.output(17,GPIO.LOW)   # turning off pin 17,27  
 GPIO.output(27,GPIO.LOW)  
 ```  
-
-
-
-
-
-
-
-
-
-
