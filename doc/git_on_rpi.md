@@ -1,27 +1,19 @@
 # Git on Rsapberry Pi
 
- 
+## What is Git?
 
-if you want to share your code between several computers, you’ll need a Git server.
-
-
-
-One of these tools is Git.  
- However, if you want to share your code between several computers,
-you’ll need a Git server. That’s what we’ll build in this tutorial.
-
-## A Git server?
-
-Git is a free and open source distruibuted version control system. Git is great for managing versions of a project, whether you’re alone working on this project or not. This tool can be used on a single computer without any problem. The problems come when you want to share your code, either publicly or between two or more of your computers. In this case, you need a place to send your modifications, so they can be retrieved on the other computers. For this you need a **Git** server.  
+Git is a free and open source distruibuted version control system.  
+Git is great for managing versions of a project, whether you’re alone working on this project or not.  
+This tool can be used on a single computer without any problem. The problems come when you want to share your code, either publicly or between two or more of your computers. In this case, you need a place to send your modifications, so they can be retrieved on the other computers. For this you need a **Git** server.  
 
 With Git you can do following things:  
 
-**1.** you can modify your code
-**2.** you can send your changes to the server
-**3.** on another computer, you or anybody else downloads the changes from the server
-**4.** new changes are made from this other computer
-**5.** these changes are sent to the server so that others can download them, and so on.
-**6.** A Git server is basically a computer connected to the Internet on which we can store Git repositories. Any computer can be used   for that and, here, we’ll use a Raspberry Pi, as it has the advantage of being a very low cost option, while giving good performance.
+**1.** you can modify your code  
+**2.** you can send your changes to the server  
+**3.** on another computer, you or anybody else downloads the changes from the server  
+**4.** new changes are made from this other computer  
+**5.** these changes are sent to the server so that others can download them, and so on.  
+**6.** A Git server is basically a computer connected to the Internet on which we can store Git repositories. Any computer can be used   for that and, here, we’ll use a Raspberry Pi, as it has the advantage of being a very low cost option, while giving good performance.  
 
 ## Why create our own server?
 
@@ -40,7 +32,7 @@ creating our own server can be a good idea.
 * SD Card ( installed with Raspbian or any other operating system on which Raspberry Pi can work)  
 * Internet souce to connect with Raspberry Pi (through Ethernet or directly via Wi-Fi).  
   
- <a href="https://www.raspberrypi.org/documentation/remote-access/access-over-Internet/README.md> See </a> for connecting RPi to internet.  
+<a href="https://www.raspberrypi.org/documentation/remote-access/access-over-Internet/README.md> See </a> for connecting RPi to internet.  
 
 ## How To Build a Git Server with a Raspberry Pi
 
@@ -117,7 +109,7 @@ just do the usual:
 
 `git commit -m 'My first commit'`  
 
-Here, the message inside sinle quotes ca be anything you want.  
+Here, the message inside single quotes ca be anything you want.  
 
 After a few commits, you’ll want to send your changes to your server. To do that, use the following command, which should sound familiar
 to you if you’ve already used something like GitHub:  
@@ -131,6 +123,6 @@ latest changes and get an updated working repository on your computer, type the 
 
 `git pull origin master` 
 
-To learn more about Git <a href="https://git-scm.com/book/en/v1/Getting-Started"> check </a> here.  
+To learn more about Git. <a href="https://git-scm.com/book/en/v1/Getting-Started"> check here.</a>   
 
 
