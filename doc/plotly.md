@@ -43,12 +43,7 @@ In this project we will be uploading the sensor data on the internet in order to
 1.	Open the Plotly website
 2.	Create and account on plotly under personal and sign up using either your google account or Facebook account according to your convenience
 3.	Login using the same credentials and go to settings to note down the API key and the token. If the token is not generated then generate a new one by clicking on the button
-4.	Note down the following details from your account your stream token (x2), API key, and your username. Write all the three in config.json file in the following format	
-**{
-  	"plotly_streaming_tokens": ["your_stream_token", "another_stream_token"],
-  	"plotly_api_key": "7dd3p73ljs",
-  	"plotly_username": "satyadev"
-	}**
+4.	Note down the following details from your account your stream token (x2), API key, and your username. Write all the three in config.json file in the format as mentioned in the file config.json in src/dht11 folder of the same repository	
 5.	Save the file onto your pi where the code dht11_plotly has been stored. Make sure to include dht11.py in the same folder as that is the library of dht11
 6.	Open the terminal from the programming menu and click on python 2.7 (IDLE). Open a new file and paste the code and save it in the same folder as your config.json and dht11.py
 7.	Run the program by pressing F5 on the keyboard. As python has to write the data to a graph the program will take a while to run. When it does, after a few readings plotly will open automatically and we can observe the graph.
