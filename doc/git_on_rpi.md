@@ -32,7 +32,7 @@ creating our own server can be a good idea.
 * SD Card ( installed with Raspbian or any other operating system on which Raspberry Pi can work)  
 * Internet souce to connect with Raspberry Pi (through Ethernet or directly via Wi-Fi).  
   
-<a href="https://www.raspberrypi.org/documentation/remote-access/access-over-Internet/README.md> See </a> for connecting RPi to internet.  
+<a href="https://www.raspberrypi.org/documentation/remote-access/access-over-Internet/README.md> See</a> for connecting RPi to internet.  
 
 ## How To Build a Git Server with a Raspberry Pi
 
