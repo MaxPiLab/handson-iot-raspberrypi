@@ -58,52 +58,43 @@ The first thing our server will need is Git, which you can install by executing 
 From a very basic view, that’s all we need to get a Git server. However, there are some details we can add to get a proper and more 
 secure server.
 
-### Creating a dedicated user
+### First time git setup
 
-It’s a good practice to create a new user for each use you make of the Raspberry Pi. This user is the official manager of its 
-corresponding use.
+Open git bash.  
 
-Here we’ll create the user git. To do that, type the following command on the Raspberry Pi:  
+The first thing you should do is to set your user name and e-mail address. This is important because every Git commit uses this information.  
 
-`sudo adduser git`  
+```
+git config --global user.name "John Doe"  
+git config --global user.email johndoe@example.com  
+```
+If you ever need help while using Git, there are three ways to get the manual page (manpage) help for any of the Git commands:
 
-You’ll be asked to enter a password for this user.  
+```
+git help <verb>  
+git <verb> --help  
+man git-<verb>  
+```  
+For example, you can get the manpage help for the config command by running  
 
-### Using SSH to access the server
+`git help config`  
 
-Having a dedicated screen for a server is pretty much useless. Most of the time, we just want to exchange data with it. To do that we 
-can use SSH, a secure way to communicate between two computers.
+You can get a Git project using two main approaches. The first takes an existing project or directory and imports it into Git. The second clones an existing Git repository from another server.  
 
-Explaining how SSH works is not the aim of this article, so I won’t describe how to use it. However, you can find excellent documentation on Raspberry Pi’s official website.
+###  Initializing the repo on your computer  
 
-## How To Use Our Server
+On the computer you’ll use to work on your project, create a new folder (anywhere you want). In a terminal, go to this directory 
+(with cd) and initialize the repo with the following command:  
 
-Raspberry Pi logo
+`git init`  
 
-Our server is now ready to use. So it’s time to see how to use it. We’ll see here how to create a new repository, and how to update it.  
-Let’s show our great powers of imagination to the world by creating a test repository named `Hello-World`.  
+This creates a new subdirectory named `.git` that contains all of your necessary repository files — a Git repository skeleton.  
 
-## Creating a new repo on the Raspberry Pi
+Other way is cloning an existing repository.  
 
-The first thing to do is initialize our new repository on the Raspberry Pi. On the server side, a repository is basically the same 
-thing you find on your computer: a folder with a .git subfolder. So the first thing to do is to create this folder.
+### Cloning a repository
 
-On the Raspberry Pi, use the git user to create it (through SSH or not, but you should always use this user to create new repositories).
-You can create this folder anywhere you want: on the Raspberry Pi’s SD card, for instance, or on an external HDD. In the following 
-command, we create the folder in the home folder of git:
-
-`mkdir /home/git/Hello-World.git`  
-Notice the .git suffix in the folder’s name. This suffix is not mandatory, and is just a convention: on the server side, repositories 
-have this suffix. It’s a convention you can find on GitHub, for instance.  
-
-Now change your current directory to this new one:  
-
-`cd /home/git/Hello-World.git`  
-
-  ### Cloning a repository
-
-Bringing in a new user? Or adding yourself on another computer? The repository exists on the server, but it needs to be added to another 
-computer. This is when it’s time to clone the repository.
+If the repository exists on the server, but it needs to be added to another computer. This is when it’s time to clone the repository.  
 
 Cloning a repo requires knowledge of where it lives — or, in other words, what its address is. As it’s your server, you should know it,
 and it’s the same as the one we used above:
@@ -112,18 +103,21 @@ and it’s the same as the one we used above:
 
 By cloning a repository, a remote is automatically created, named origin.  
 
-###  Initializing the repo on your computer  
-
-Finally, we initialize the repository:  
-
-On the computer you’ll use to work on your project, create a new folder (anywhere you want). In a terminal, go to this directory 
-(with cd) and initialize the repo with the following command:  
-
-`git init`  
-
-Here we create a normal repository and not a bare one. That way, we’ll see files the way we expect to on our computer.
-
 ### Working with the repositories
+
+In order for Git to start tracking scene-1.txt, the file needs to be added to the staging area.  
+
+We can add a file to the staging area with:  
+
+`git add filename`  
+
+To check the status of the project in Git, use the command:  
+
+`git status`  
+
+To check the differences between the working directory and the staging area , use the command:  
+
+`git diff filename`  
 
 Now our repo is ready to use. Create new files, edit them, remove some others, as always. When you’re ready to create your first commit,
 just do the usual:  
@@ -133,14 +127,13 @@ just do the usual:
 After a few commits, you’ll want to send your changes to your server. To do that, use the following command, which should sound familiar
 to you if you’ve already used something like GitHub:  
 
-`git push pi master`  
+`git push origin master`  
 
-In the above command, we send the master branch to the remote repository named pi. It’s the remote we created in the previous part, 
-so think about changing its name if you chose another one!
+In the above command, we send the master branch to the remote repository named origin (default).  
 
 Now, someone else with access to the server — or you on another computer — can download your changes and make commits. To download the 
 latest changes and get an updated working repository on your computer, type the following command:  
 
-`git pull pi master` 
+`git pull origin master` 
 
 
