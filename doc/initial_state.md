@@ -41,5 +41,5 @@ In this project we will be learning how to use initial state to capture the data
 
 
 #### NOTE
-The sample code for this project is present in the **src folder** with the name **is_example.py**
+The sample code for this project will automagically get downloaded while installing the **ISStreamer module** 
 
