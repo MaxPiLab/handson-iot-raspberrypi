@@ -1,5 +1,5 @@
 import RPi.GPIO as GPIO
-import lcddriver
+import lcddriver # including the module for communicating with the LCD
 import time
 
 
@@ -34,11 +34,13 @@ print("The distance in centimeter is :")
 while 1:
     print(reading(0))
     if (reading(0) < 5):
-        display.lcd_display_string("ALERT! VEHICLE",1) # Write line of text to first line of display
-        display.lcd_display_string("TOO CLOSE",2) # Write line of text to second line of display
+        # To print on the LCD screen 
+        #display.lcd_display_string("ALERT! VEHICLE",1) # Write line of text to first line of display
+        #display.lcd_display_string("TOO CLOSE",2) # Write line of text to second line of display
+        print("ALERT !!! VEHICLE TOO CLOSE ")
         GPIO.output(18,GPIO.HIGH)
     elif (reading(0) > 5):
-        display.lcd_clear() 
+        #display.lcd_clear() #to clear the message displayed onto the LCD screen 
         GPIO.output(18,GPIO.LOW)
     time.sleep(2)
 
