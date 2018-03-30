@@ -32,7 +32,7 @@ In this project we had to create a project in which the alarm goes off when the 
 5.	Save the python program in the same folder as the DHT11 python library and config.json
 6.	The temperature values are read from the sensor and written on to the graph
 7.	The light and the buzzer turn ON if the temperature crosses 27 degree Celsius and written on to the plotly graph.
-8.	The graph can be accessed remotely
+8.	Access the graph from anyplace and know the temperature in your room
 
 ### NOTE
 The program code for the project is available in the same folder as this
