@@ -1,6 +1,6 @@
 ## Plotly Example of basic temperature sensor ##
 ## iRaspberrypi
-## plotly library/module is unavailable for python3 so it will work only with python2
+## plotly library / module is unavailable for python3 so we will be using python2 for this project
 
 #Import required modules
 import plotly.plotly as myplot
