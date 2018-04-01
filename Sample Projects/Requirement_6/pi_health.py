@@ -3,7 +3,7 @@ from __future__ import division
 from subprocess import PIPE, Popen
 import psutil
 import time
-from ISStreamer.Streamer import Streamer
+from ISStreamer.Streamer import Streamer # Module unavailable for python3 
 
 # --------- User Settings ---------
 # Initial State settings
