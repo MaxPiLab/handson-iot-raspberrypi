@@ -8,7 +8,7 @@ Developers can build complete and ready-to-use IoT solutions with little to no c
 
 myDevices also provides tools such as SDKs and APIs, in addition to professional services and support, for companies that want to create customized IoT products and apps that take advantage of Cayenne’s revolutionary capabilities. myDevices’ Cayenne is becoming the industry standard for building and delivering finished IoT solutions.
 
-
+![](https://github.com/11RO05/handson-iot-raspberrypi/blob/master/Sample%20Projects/Requirement_9/Dashboard.jpg)
 
 ### THINGS USED IN THIS PROJECT
 
@@ -24,6 +24,8 @@ myDevices also provides tools such as SDKs and APIs, in addition to professional
 
 ## STORY
 In this project we will turn an LED ON and OFF using an app called Cayenne developed by myDevices. In this app we can give commands to the GPIO pins without actually programming it. Different buttons for the actuators (relay, light etc.) can be created for quick and easy access. When a button is created, it appears on the dashboard. We can give it any name. The function of this button is to turn the LED ON or OFF i.e. it will turn the connected pin to high or low values which in turn will control the LED. In this case the LED is connected GPIO17 (we can connect it to any GPIO Pin). Under the GPIO menu we have to change the pin to an output pin and on clicking LOW or HIGH the bulb turn OFF or ON. The same function is done by using a button on the dashboard. In this way we can become even lazier and more technologically advanced by using mobile phones to turn the light off. 
+
+![](https://github.com/11RO05/handson-iot-raspberrypi/blob/master/Sample%20Projects/Requirement_9/Circuit%20Diagram.png)
 
 ### INSTRUCTIONS
 1.	Create an account on myDevices and download the cayenne app on your phone (Android / iOS)
