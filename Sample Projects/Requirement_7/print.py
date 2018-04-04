@@ -1,4 +1,4 @@
-# The messages sent from Arduino can be displayed on the Pi using the following code
+# The messages sent from Arduino can be displayed on the Pi by using the following code
 
 import serial
 
