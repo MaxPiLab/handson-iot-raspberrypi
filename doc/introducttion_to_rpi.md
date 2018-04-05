@@ -83,7 +83,7 @@ The Pi 3 Model B+ is faster, but also consumes more power and might overheat dur
 That said, the foundation says the Pi 3 Model B+ can sustain high performance for much longer periods than its predecessors. Adding a **cooling fan** on the back is apparently supported:  
 
 <p align="center"> 
-<img src="">
+<img src="https://user-images.githubusercontent.com/35935951/38392395-feff84f6-3944-11e8-9e74-321ff8d882fc.jpg">
 </p>
 
 ## Basic things required to start your Raspberry Pi
