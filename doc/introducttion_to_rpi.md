@@ -78,12 +78,12 @@ In celebration of Pi Day 2018, the Raspberry Pi foundation has announced the **R
 
 The Pi 3 Model B+ is faster, but also consumes more power and might overheat during resource intensive tasks. That means its chip will be throttled above 70°C:  
 
-< Below 70°C, we use the improvements to increase the core frequency to 1.4GHz. Above 70°C, we drop to 1.2GHz, and use the improvements to decrease the core voltage, increasing the period of time before we reach our 80°C thermal throttle; the reduction in power consumption is such that many use cases will never reach the throttle. Like a modern smartphone, we treat the thermal mass of the device as a resource, to be spent carefully with the goal of optimizing user experience.  
+> *Below 70°C, we use the improvements to increase the core frequency to 1.4GHz. Above 70°C, we drop to 1.2GHz, and use the improvements to decrease the core voltage, increasing the period of time before we reach our 80°C thermal throttle; the reduction in power consumption is such that many use cases will never reach the throttle. Like a modern smartphone, we treat the thermal mass of the device as a resource, to be spent carefully with the goal of optimizing user experience.   
 
 That said, the foundation says the Pi 3 Model B+ can sustain high performance for much longer periods than its predecessors. Adding a **cooling fan** on the back is apparently supported:  
 
 <p align="center"> 
-<img src="https://user-images.githubusercontent.com/35935951/38391657-80eb75f4-3942-11e8-9367-4bbd5d4021f7.jpg">
+<img src="">
 </p>
 
 ## Basic things required to start your Raspberry Pi
