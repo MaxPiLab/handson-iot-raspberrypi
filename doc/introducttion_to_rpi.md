@@ -14,9 +14,9 @@ It will not run normal Operating Systems. There are specific Operating Systems w
 
 ### Motivation
 
-The Raspberry Pi was created in Febuary 2012 by the Raspberry Pi Foundation, Oringially setup to promote and teach basic computer science in schools and colleges around the UK.  
+The Raspberry Pi was created in February 2012 by the Raspberry Pi Foundation, Oringinally setup to promote and teach basic computer science in schools and colleges around the UK.  
 
-The products were so popular due to their **low cost**,**efficiency** and durable which made them easy to modify and crate projects on. The device ran on **Linux**, a popular OS for developers, due to it being open-source.  
+The products were so popular due to their **low cost**,**efficiency** and durable which made them easy to modify and crate projects on. The device run on **Linux**, a popular OS for developers, due to it being open-source.  
 
 ### Where does the name Raspberry Pi come from?
 
