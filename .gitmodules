@@ -1,0 +1,3 @@
+[submodule "mobile/ios/mobile/ios/DeviceControl"]
+	path = mobile/ios/mobile/ios/DeviceControl
+	url = https://github.com/KarpagaShanthi/DeviceControl.git
