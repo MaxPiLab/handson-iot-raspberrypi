@@ -1,0 +1,6 @@
+[submodule "mobile/Android/DeviceController"]
+	path = mobile/Android/DeviceController
+	url = https://github.com/KarpagaShanthi/DeviceController.git
+[submodule "mobile/ios/DeviceControl"]
+	path = mobile/ios/DeviceControl
+	url = https://github.com/KarpagaShanthi/DeviceControl.git
