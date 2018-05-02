@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		25810E4496CD77E7F403829B /* Pods_DeviceControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4C66EEB6DDA4FA1D0554B /* Pods_DeviceControl.framework */; };
+		76293ED920998E0D006F8CA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76293ED820998E0D006F8CA1 /* GoogleService-Info.plist */; };
 		76B8A9CF20832E2500270FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9CE20832E2500270FD1 /* AppDelegate.swift */; };
 		76B8A9D120832E2500270FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9D020832E2500270FD1 /* ViewController.swift */; };
 		76B8A9D420832E2500270FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B8A9D220832E2500270FD1 /* Main.storyboard */; };
@@ -15,12 +16,12 @@
 		76B8A9D920832E2500270FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B8A9D720832E2500270FD1 /* LaunchScreen.storyboard */; };
 		76B8A9E1208359FF00270FD1 /* LedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9E0208359FF00270FD1 /* LedViewController.swift */; };
 		76B8A9E320835A1400270FD1 /* SensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9E220835A1400270FD1 /* SensorViewController.swift */; };
-		76B8A9E5208C875B00270FD1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76B8A9E4208C875B00270FD1 /* GoogleService-Info.plist */; };
 		76B8A9E7208C90CA00270FD1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9E6208C90CA00270FD1 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		469B3378CF94E61F5A2FD243 /* Pods-DeviceControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl.release.xcconfig"; sourceTree = "<group>"; };
+		76293ED820998E0D006F8CA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		76B8A9CB20832E2500270FD1 /* DeviceControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B8A9CE20832E2500270FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76B8A9D020832E2500270FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		76B8A9DA20832E2600270FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76B8A9E0208359FF00270FD1 /* LedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedViewController.swift; sourceTree = "<group>"; };
 		76B8A9E220835A1400270FD1 /* SensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorViewController.swift; sourceTree = "<group>"; };
-		76B8A9E4208C875B00270FD1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		76B8A9E6208C90CA00270FD1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		91A4C66EEB6DDA4FA1D0554B /* Pods_DeviceControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeviceControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8B1A348983025BDDF803D1 /* Pods-DeviceControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 				76B8A9D520832E2500270FD1 /* Assets.xcassets */,
 				76B8A9D720832E2500270FD1 /* LaunchScreen.storyboard */,
 				76B8A9DA20832E2600270FD1 /* Info.plist */,
-				76B8A9E4208C875B00270FD1 /* GoogleService-Info.plist */,
+				76293ED820998E0D006F8CA1 /* GoogleService-Info.plist */,
 			);
 			path = DeviceControl;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76B8A9D920832E2500270FD1 /* LaunchScreen.storyboard in Resources */,
-				76B8A9E5208C875B00270FD1 /* GoogleService-Info.plist in Resources */,
+				76293ED920998E0D006F8CA1 /* GoogleService-Info.plist in Resources */,
 				76B8A9D620832E2500270FD1 /* Assets.xcassets in Resources */,
 				76B8A9D420832E2500270FD1 /* Main.storyboard in Resources */,
 			);
