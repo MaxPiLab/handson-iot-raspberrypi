@@ -114,13 +114,13 @@ def main():
   while True:
 
     # Send some test
-    lcd_string("RPiBAPS         <",LCD_LINE_1)
+    lcd_string("RPi        <",LCD_LINE_1)
     lcd_string("I2C LCD        <",LCD_LINE_2)
 
     time.sleep(3)
 
     # Send some more text
-    lcd_string(">         RPiBAPS",LCD_LINE_1)
+    lcd_string(">         RPi",LCD_LINE_1)
     lcd_string(">        I2C LCD",LCD_LINE_2)
 
     time.sleep(3)
