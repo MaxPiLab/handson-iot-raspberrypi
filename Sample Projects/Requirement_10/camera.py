@@ -36,7 +36,7 @@ def timeStamp(currentTime, picPath, picName):
     call([timestampCommand], shell=True)
 
 while True:
-    motionState = P3picam.motion()
+    motionState = picam.motion()
     print(motionState)
     if motionState:
         currentTime = getTime()
