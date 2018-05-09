@@ -17,9 +17,9 @@ Soil moisture sensors typically refer to sensors that estimate volumetric water 
 
 ### STORY
 In this project we will be integrating the Soil Moisture Sensor with the Raspberry Pi. To connect the sensor to the Pi an Analog to Digital conversion is required as the sensor produces analog output. To convert the Analog to Digital we use a breakout board which comes along with the sensor. There are 5 connections that are to be made. 3 connections are to the Pi and the other 2 are to the soil sensor. The Analog to digital (A-D) breakout board converts the analog output of the sensor to digital for the pi to understand it. So we have to connect the digital pin i.e. D0 to the GPIO of the raspberry pi. The pin A0 is kept open as we are not using it for this project. The sensitivity of the sensor can be changed by varying the potentiometer present on the A-D breakout board. The connections are made as follows:
-•	Vcc – 5V
-•	Gnd – Ground
-•	Signal (D0) – GPIO 21
+-	Vcc – 5V
+-	Gnd – Ground
+-	Signal (D0) – GPIO 21
 
 When the connections are made and the Pi is powered up, a red light on the A-D breakout board turns on indicating that the board is ready to be used. For testing purposes take the sensor and dip it in water. When around half of the sensor is in the water another light on the breakout board turns on indicating the presence of water. To check the presence of moisture in the soil insert the sensor (about 3/4th of the sensor) into the soil and find out whether moisture is present or not. 
 
