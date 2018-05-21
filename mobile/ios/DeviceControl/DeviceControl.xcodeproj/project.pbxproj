@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25810E4496CD77E7F403829B /* Pods_DeviceControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4C66EEB6DDA4FA1D0554B /* Pods_DeviceControl.framework */; };
 		76293ED920998E0D006F8CA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76293ED820998E0D006F8CA1 /* GoogleService-Info.plist */; };
+		76A1425820B060EF0041BFD7 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1425720B060EF0041BFD7 /* NetWorkManager.swift */; };
+		76A1425A20B078B10041BFD7 /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1425920B078B10041BFD7 /* OfflineViewController.swift */; };
 		76B8A9CF20832E2500270FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9CE20832E2500270FD1 /* AppDelegate.swift */; };
 		76B8A9D120832E2500270FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9D020832E2500270FD1 /* ViewController.swift */; };
 		76B8A9D420832E2500270FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B8A9D220832E2500270FD1 /* Main.storyboard */; };
@@ -17,11 +18,17 @@
 		76B8A9E1208359FF00270FD1 /* LedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9E0208359FF00270FD1 /* LedViewController.swift */; };
 		76B8A9E320835A1400270FD1 /* SensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9E220835A1400270FD1 /* SensorViewController.swift */; };
 		76B8A9E7208C90CA00270FD1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9E6208C90CA00270FD1 /* LoginViewController.swift */; };
+		76D0227820A6133100E8FE8A /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D0227720A6133100E8FE8A /* webViewController.swift */; };
+		76E2F896209ECF5A0030A948 /* pubnubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E2F895209ECF5A0030A948 /* pubnubViewController.swift */; };
+		76E6B61A20A4462C00AABC90 /* 1471418820641MaxPi.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E6B61920A4462B00AABC90 /* 1471418820641MaxPi.png */; };
+		76EF47AA20B2C06E00E3640F /* Pods_DeviceControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4C66EEB6DDA4FA1D0554B /* Pods_DeviceControl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		469B3378CF94E61F5A2FD243 /* Pods-DeviceControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl.release.xcconfig"; sourceTree = "<group>"; };
 		76293ED820998E0D006F8CA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		76A1425720B060EF0041BFD7 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		76A1425920B078B10041BFD7 /* OfflineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
 		76B8A9CB20832E2500270FD1 /* DeviceControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B8A9CE20832E2500270FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76B8A9D020832E2500270FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +39,10 @@
 		76B8A9E0208359FF00270FD1 /* LedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedViewController.swift; sourceTree = "<group>"; };
 		76B8A9E220835A1400270FD1 /* SensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorViewController.swift; sourceTree = "<group>"; };
 		76B8A9E6208C90CA00270FD1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		76D0227720A6133100E8FE8A /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		76E2F895209ECF5A0030A948 /* pubnubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pubnubViewController.swift; sourceTree = "<group>"; };
+		76E6B61920A4462B00AABC90 /* 1471418820641MaxPi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1471418820641MaxPi.png; sourceTree = "<group>"; };
+		76EF47AD20B2C07800E3640F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A4C66EEB6DDA4FA1D0554B /* Pods_DeviceControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeviceControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8B1A348983025BDDF803D1 /* Pods-DeviceControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25810E4496CD77E7F403829B /* Pods_DeviceControl.framework in Frameworks */,
+				76EF47AA20B2C06E00E3640F /* Pods_DeviceControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +62,7 @@
 		76B8A9C220832E2500270FD1 = {
 			isa = PBXGroup;
 			children = (
+				76EF47AD20B2C07800E3640F /* Alamofire.framework */,
 				76B8A9CD20832E2500270FD1 /* DeviceControl */,
 				76B8A9CC20832E2500270FD1 /* Products */,
 				E556EF278087FBB90A8FDFD5 /* Pods */,
@@ -69,16 +81,21 @@
 		76B8A9CD20832E2500270FD1 /* DeviceControl */ = {
 			isa = PBXGroup;
 			children = (
+				76E6B61920A4462B00AABC90 /* 1471418820641MaxPi.png */,
 				76B8A9CE20832E2500270FD1 /* AppDelegate.swift */,
 				76B8A9D020832E2500270FD1 /* ViewController.swift */,
 				76B8A9E0208359FF00270FD1 /* LedViewController.swift */,
 				76B8A9E220835A1400270FD1 /* SensorViewController.swift */,
 				76B8A9D220832E2500270FD1 /* Main.storyboard */,
+				76A1425920B078B10041BFD7 /* OfflineViewController.swift */,
+				76D0227720A6133100E8FE8A /* webViewController.swift */,
+				76E2F895209ECF5A0030A948 /* pubnubViewController.swift */,
 				76B8A9E6208C90CA00270FD1 /* LoginViewController.swift */,
 				76B8A9D520832E2500270FD1 /* Assets.xcassets */,
 				76B8A9D720832E2500270FD1 /* LaunchScreen.storyboard */,
 				76B8A9DA20832E2600270FD1 /* Info.plist */,
 				76293ED820998E0D006F8CA1 /* GoogleService-Info.plist */,
+				76A1425720B060EF0041BFD7 /* NetWorkManager.swift */,
 			);
 			path = DeviceControl;
 			sourceTree = "<group>";
@@ -130,7 +147,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Maxpi;
 				TargetAttributes = {
 					76B8A9CA20832E2500270FD1 = {
@@ -163,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76B8A9D920832E2500270FD1 /* LaunchScreen.storyboard in Resources */,
+				76E6B61A20A4462C00AABC90 /* 1471418820641MaxPi.png in Resources */,
 				76293ED920998E0D006F8CA1 /* GoogleService-Info.plist in Resources */,
 				76B8A9D620832E2500270FD1 /* Assets.xcassets in Resources */,
 				76B8A9D420832E2500270FD1 /* Main.storyboard in Resources */,
@@ -174,31 +192,35 @@
 /* Begin PBXShellScriptBuildPhase section */
 		81E60F9919949C9223B444D3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8E293E4BEA2E2184B8D36A81 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -208,15 +230,17 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DeviceControl-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/myfile",
+				"$(DERIVED_FILE_DIR)/myfile",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9BBCA25B35C1A7452A29AD70 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -227,7 +251,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl-resources.sh\"\n";
 			showEnvVarsInLog = 0;
@@ -239,10 +263,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D0227820A6133100E8FE8A /* webViewController.swift in Sources */,
 				76B8A9E1208359FF00270FD1 /* LedViewController.swift in Sources */,
 				76B8A9D120832E2500270FD1 /* ViewController.swift in Sources */,
+				76A1425A20B078B10041BFD7 /* OfflineViewController.swift in Sources */,
 				76B8A9E320835A1400270FD1 /* SensorViewController.swift in Sources */,
+				76A1425820B060EF0041BFD7 /* NetWorkManager.swift in Sources */,
 				76B8A9E7208C90CA00270FD1 /* LoginViewController.swift in Sources */,
+				76E2F896209ECF5A0030A948 /* pubnubViewController.swift in Sources */,
 				76B8A9CF20832E2500270FD1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +311,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -290,6 +319,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -340,6 +370,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -347,6 +378,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -381,11 +413,14 @@
 			baseConfigurationReference = BA8B1A348983025BDDF803D1 /* Pods-DeviceControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XBP9U8BUK;
 				INFOPLIST_FILE = DeviceControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Maxpi.DeviceControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -396,11 +431,14 @@
 			baseConfigurationReference = 469B3378CF94E61F5A2FD243 /* Pods-DeviceControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XBP9U8BUK;
 				INFOPLIST_FILE = DeviceControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Maxpi.DeviceControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

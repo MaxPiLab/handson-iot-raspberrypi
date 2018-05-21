@@ -10,11 +10,12 @@ class SensorViewController: UIViewController, PNObjectEventListener{
 let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate;
     
     @IBOutlet var distance: UITextField!
+    var sensorChannelname = String()
     @IBAction func getDistance(_ sender: UIButton) {
-        appDelegate.client_sensor.publish(["getDistance": "on"], toChannel: "Rangefinder", withCompletion: nil)
+        appDelegate.client?.publish(["getDistance": "on"], toChannel: sensorChannelname, withCompletion: nil)
         //appDelegate.client_sensor.addListener(self)
-        appDelegate.client_sensor.subscribeToChannels(["Rangefinder"], withPresence: true)
-        appDelegate.client_sensor.addListener(self)
+        appDelegate.client?.subscribeToChannels([sensorChannelname], withPresence: true)
+        appDelegate.client?.addListener(self)
         
         
     }

@@ -13,15 +13,17 @@ let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate;
     
     
     @IBOutlet var ledON: UIButton!
-    
     @IBOutlet var ledOFF: UIButton!
+    var ledChannelname = String()
+    
     @IBAction func lightOn(_ sender: UIButton) {
-        appDelegate.client_led.publish(["light" : "on"], toChannel: "LedControl", withCompletion: nil)
-        
+        print("Led :\(ledChannelname)")
+        appDelegate.client?.publish(["light" : "on"], toChannel: ledChannelname, withCompletion: nil)
+       
     }
     
     @IBAction func lightOff(_ sender: UIButton) {
-        appDelegate.client_led.publish(["light" : "off"], toChannel: "LedControl", withCompletion: nil)
+        appDelegate.client?.publish(["light" : "off"], toChannel: ledChannelname, withCompletion: nil)
        
     }
     

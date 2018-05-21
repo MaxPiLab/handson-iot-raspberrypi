@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (4.7.2)
   - Firebase/Core (3.17.0):
     - FirebaseAnalytics (= 3.9.0)
     - FirebaseCore (= 3.6.0)
@@ -40,14 +41,18 @@ PODS:
   - PubNub (4.7.7):
     - PubNub/Core (= 4.7.7)
   - PubNub/Core (4.7.7)
+  - ReachabilitySwift (4.1.0)
 
 DEPENDENCIES:
+  - Alamofire
   - Firebase/Core
   - Google/SignIn
   - GoogleSignIn
   - PubNub (~> 4.0)
+  - ReachabilitySwift
 
 SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   Firebase: 4b66b5b59c43edac745b87f0c87e42cdd0279c13
   FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
   FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
@@ -58,7 +63,8 @@ SPEC CHECKSUMS:
   GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
   GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
   PubNub: 3493f9dd62b6d07579ddae5183ab0a0f2ac54091
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
 
-PODFILE CHECKSUM: 0a7e5eda7d9a37e1f31feda3bd1d63f092a910b2
+PODFILE CHECKSUM: a7614c88599051b277d7a9fb7de929aa9e765113
 
 COCOAPODS: 1.4.0
