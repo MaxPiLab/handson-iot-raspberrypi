@@ -3,6 +3,13 @@
 # Copyright (c) 2017-18 Richard Hull and contributors
 # See LICENSE.rst for details.
 
+# First install the required drivers
+# open LX-Terminal and type the following git clone https://github.com/rm-hull/max7219.git
+# change directory to max7219 : cd max7219
+# sudo python setup.py install
+# wait for the directories to install. once installed run this code.
+
+
 import re
 import time
 import argparse
