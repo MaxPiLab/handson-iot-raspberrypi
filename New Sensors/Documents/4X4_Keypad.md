@@ -13,23 +13,23 @@ Under normal conditions, the switch (key) is open, because current cannot cross 
 ### THINGS USED IN THIS PROJECT
 
 #### HARDWARE COMPONENTS
-1.	Raspberry Pi	**X1**
-2.	Breadboard 	**X1**
-3.	4X4 Membrane Keypad	**X1**
-4.	Resistors (1KΩ)		**X4**
-5.	Jumper wires			**X1 set of each**
+1.	Raspberry Pi	        **X1**
+2.	Breadboard          	**X1**
+3.	4X4 Membrane Keypad	  **X1**
+4.	Resistors (1KΩ)		    **X4**
+5.	Jumper wires		    	**X1 set of each**
 
 #### SOFTWARE COMPONENTS
 1.	Python 3.5 (IDLE)
 
 ## STORY
-In this project we will be integrating the 4X4 Membrane keypad with the raspberry pi and simply typing the numbers and see them getting displayed onto the screen. The Membrane consists of 4X4 characters i.e. numbers from 0-9, the first four alphabets of the English language and special symbols such as the **#** and ** * **. The characters of the keypad are connected in rows and columns. There are 4 pins that connect each column and 4 pins which connect each row. The membrane keypad has no internal circuitry. The keypad matrix can be attached directly to any of the GPIO pins of the raspberry pi. Since any of the pins can be used, select the pins which are far away from each other and connect the rows and column pins. This way it will be easier to know which pin is for the row and which is for the column and also this method is time saving. 
+In this project we will be integrating the 4X4 Membrane keypad with the raspberry pi and simply typing the numbers and see them getting displayed onto the screen. The Membrane consists of 4X4 characters i.e. numbers from 0-9, the first four alphabets of the English language and special symbols such as the **#** and * . The characters of the keypad are connected in rows and columns. There are 4 pins that connect each column and 4 pins which connect each row. The membrane keypad has no internal circuitry. The keypad matrix can be attached directly to any of the GPIO pins of the raspberry pi. Since any of the pins can be used, select the pins which are far away from each other and connect the rows and column pins. This way it will be easier to know which pin is for the row and which is for the column and also this method is time saving. 
 
 The membrane keypad is connected with a female ribbon wire. The column pins are set as output and set to a high value whereas the row pins are set as input with the help of pull up resistor i.e. the input pins are also high. When a button is pressed the input becomes low indicating the button that has been pressed. The row pins are connected to the keypad via 1kΩ resistors whereas the column pins are connected directly. As the row pins are held high with the help of a pull up resistor the GPIO pins can get damaged if there is a sudden surge of current that takes place. In order to protect the GPIO pins and the pins of the keypad resistors are used. This approach of programming can be used with any size of matrix keypad. Only the column and row connections are to be changed to a lower or higher number.
 
 <img src="https://github.com/11RO05/handson-iot-raspberrypi/blob/master/New%20Sensors/Images/Layout.png">
 
-The connection of the keypad to the raspberry pi consists of 8 pin connections. Let us make the connection of the row pins to the odd number side and the connection of the column pin to the even number side. The pins on the keypad can be connected in any manner i.e. either R1-R4, C1-C4 or vice versa. But they must be in ascending order. See the circuit diagram below in order to avoid any confusion.
+The connection of the keypad to the raspberry pi consists of 8 pin connections. Let us make the connection of the row pins to the odd number side and the connection of the column pin to the even number side of the raspberry pi. The pins on the keypad can be connected in any manner i.e. either R1-R4, C1-C4 or vice versa. But they must be in ascending order. See the circuit diagram below in order to avoid any confusion.
 
 <img src="https://github.com/11RO05/handson-iot-raspberrypi/blob/master/New%20Sensors/Circuit%20Diagram/4X4%20Keypad.png" height=500 width=600 align=middle>
 
