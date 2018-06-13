@@ -38,5 +38,6 @@ while True:
     print('Temp = {0:0.2f} *C'.format(sensor.read_temperature()))
     print('Pressure = {0:0.2f} Pa'.format(sensor.read_pressure()))
     print('Altitude = {0:0.2f} m'.format(sensor.read_altitude()))
+    print("\n")
     sleep(1)
     
