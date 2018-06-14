@@ -11,39 +11,81 @@ import PubNub
 
 class ViewController: UIViewController ,PNObjectEventListener{
     let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate;
-    //var client: PubNub?
-    //var config: PNConfiguration?
-    var pubkey = String()
+   
+   /* var pubkey = String()
     var subkey = String()
-    var channel_Name = String()
+    var channel_Name = String()*/
+    var selectedDevice = String()
     
     @IBAction func ledControlClicked(_ sender: UIButton) {
+         selectedDevice = "LED"
         
+        let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "pubnubViewController") as! pubnubViewController
+        secondViewController.deviceID = selectedDevice
+        self.navigationController?.pushViewController(secondViewController, animated: true)
     }
     @IBAction func rangeFinderClicked(_ sender: UIButton) {
-        
+         selectedDevice = "SENSOR"
+        let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "pubnubViewController") as! pubnubViewController
+        secondViewController.deviceID = selectedDevice
+        self.navigationController?.pushViewController(secondViewController, animated: true)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-        configureChannel()
+        
+        
+        //configureChannel()
     }
 
-    func client(_ client: PubNub, didReceiveMessage message: PNMessageResult) {
+   /* func client(_ client: PubNub, didReceiveMessage message: PNMessageResult) {
      
         print("Received message: \(String(describing: message.data.message)) on channel \(message.data.channel) " +
      "at \(message.data.timetoken)")
      
      }
+    */
+    
+    /*func client(_ client: PubNub, didReceive status: PNStatus) {
+        
+        print("STATUS: \(status.category)")
+        if (status.category == PNStatusCategory.PNUnexpectedDisconnectCategory) {
+            
+        print("WRONG KEYS/CHANNEL")
+            
+        }
+        
+        
+                
+                let errorStatus: PNErrorStatus = status as! PNErrorStatus
+                if errorStatus.category == .PNAccessDeniedCategory {
+                    
+                    /**
+                     This means that PAM does allow this client to subscribe to this channel and channel group
+                     configuration. This is another explicit error.
+                     */
+                }
+                else {
+                    
+                    /**
+                     More errors can be directly specified by creating explicit cases for other error categories
+                     of `PNStatusCategory` such as: `PNDecryptionErrorCategory`,
+                     `PNMalformedFilterExpressionCategory`, `PNMalformedResponseCategory`, `PNTimeoutCategory`
+                     or `PNNetworkIssuesCategory`
+                     */
+                }
+        
+    }*/
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func configureChannel()
+ /*   func configureChannel()
     {
         appDelegate.config = PNConfiguration(publishKey: pubkey, subscribeKey: subkey)
+        
         appDelegate.client = PubNub.clientWithConfiguration(appDelegate.config!)
-        appDelegate.client?.subscribeToChannels([channel_Name], withPresence: false)
+        appDelegate.client?.subscribeToChannels([channel_Name], withPresence: false )
+        
         appDelegate.client?.addListener(self)
         appDelegate.client?.unsubscribeFromChannels([channel_Name], withPresence: false) 
         
@@ -72,6 +114,6 @@ class ViewController: UIViewController ,PNObjectEventListener{
         
     }
 
-    
+    */
 
 }

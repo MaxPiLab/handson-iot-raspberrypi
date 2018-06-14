@@ -8,6 +8,6 @@ pod 'PubNub', '~>4.0'
 pod 'Google/SignIn'
 pod 'GoogleSignIn'
 pod 'Firebase/Core'
-pod 'ToastSwift'
+
 end
 
