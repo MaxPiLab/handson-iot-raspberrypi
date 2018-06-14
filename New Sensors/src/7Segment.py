@@ -8,6 +8,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 
 #List of variables for the segment ports
+#This is equivalent to (a,b,c,d,e,f,g,h) i.e a=13,b=6 and so on
 segments = (13,6,16,20,21,19,26,12)
 
 #initializing the segment ports to output at 0
