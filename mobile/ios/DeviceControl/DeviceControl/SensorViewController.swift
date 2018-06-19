@@ -10,11 +10,16 @@ class SensorViewController: UIViewController, PNObjectEventListener{
 let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate;
     
     @IBOutlet var distance: UITextField!
-    var sensorChannelname = String()
+    
+    var pubkey = String()
+    var subkey = String()
+    var channel_Name = String()
+    
     @IBAction func getDistance(_ sender: UIButton) {
-        appDelegate.client?.publish(["getDistance": "on"], toChannel: sensorChannelname, withCompletion: nil)
-        //appDelegate.client_sensor.addListener(self)
-        appDelegate.client?.subscribeToChannels([sensorChannelname], withPresence: true)
+        print("Sensor :\(channel_Name)")
+        appDelegate.client?.publish(["getDistance": "on"], toChannel: channel_Name, withCompletion: nil)
+        
+        appDelegate.client?.subscribeToChannels([channel_Name], withPresence: true)
         appDelegate.client?.addListener(self)
         
         
@@ -31,24 +36,20 @@ let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate;
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureChannel()
         
-        // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func configureChannel()
+    {
+        appDelegate.config = PNConfiguration(publishKey: pubkey, subscribeKey: subkey)
+        
+        appDelegate.client = PubNub.clientWithConfiguration(appDelegate.config!)
+        appDelegate.client?.subscribeToChannels([channel_Name], withPresence: false )
+        
+        appDelegate.client?.addListener(self)
+        appDelegate.client?.unsubscribeFromChannels([channel_Name], withPresence: false)
+        
+       
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

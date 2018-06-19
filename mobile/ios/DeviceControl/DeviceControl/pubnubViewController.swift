@@ -9,8 +9,9 @@
 import UIKit
 
 class pubnubViewController: UIViewController {
-    @IBOutlet var pubnubInfo: UILabel!
+    var deviceID = String()
     
+    @IBOutlet var pubnubInfo: UILabel!
     @IBOutlet var configureKeys: UIButton!
     @IBOutlet var pubKey: UITextField!
     @IBOutlet var subKey: UITextField!
@@ -18,6 +19,7 @@ class pubnubViewController: UIViewController {
     @IBOutlet var go: UIButton!
     let  limitlength = 50
     
+    var identifier = String()
     @IBAction func configurePressed(_ sender: UIButton) {
     }
     @IBAction func connectApp(_ sender: UIButton)
@@ -37,23 +39,35 @@ class pubnubViewController: UIViewController {
         print("Subkey:\(String(describing: subKey.text))")
         print("Channel:\(String(describing: channel.text))")
         // Instantiate SecondViewController
-        let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
-        
-        // Set "Hello World" as a value to myStringValue
-        secondViewController.pubkey = pubKey.text!
-        secondViewController.subkey = subKey.text!
-        secondViewController.channel_Name = channel.text!
-        cleantextFields()
+            if deviceID == "LED"
+            {
+                let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "LedViewController") as! LedViewController
+                secondViewController.pubkey = pubKey.text!
+                secondViewController.subkey = subKey.text!
+                secondViewController.channel_Name = channel.text!
+                cleantextFields()
+                // Take user to SecondViewController
+                self.navigationController?.pushViewController(secondViewController, animated: true)
+            }
+            if deviceID == "SENSOR"
+            {
+                let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "SensorViewController") as! SensorViewController
+                secondViewController.pubkey = pubKey.text!
+                secondViewController.subkey = subKey.text!
+                secondViewController.channel_Name = channel.text!
+                cleantextFields()
+                // Take user to SecondViewController
+                self.navigationController?.pushViewController(secondViewController, animated: true)
+            }
             
-        // Take user to SecondViewController
-        self.navigationController?.pushViewController(secondViewController, animated: true)
+       
         }
        
        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        pubnubInfo.text = "Press the below button to configure  PUBNUB Keys using PUBNUB admin link and enter the publish and subscribe keys in below text box."
+        pubnubInfo.text = "If You have the keys and channel name please enter them in below text box else ,Press the below button to configure  PUBNUB Keys using PUBNUB admin link ."
         pubnubInfo.adjustsFontSizeToFitWidth = true
         pubnubInfo.numberOfLines = 3
         
@@ -96,7 +110,7 @@ class pubnubViewController: UIViewController {
     pubKey.text = ""
     subKey.text = ""
     channel.text = ""
-    go.isUserInteractionEnabled = false
+    
     }
     
    

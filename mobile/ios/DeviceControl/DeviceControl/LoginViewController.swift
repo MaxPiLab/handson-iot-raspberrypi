@@ -39,7 +39,7 @@ class LoginViewController: UIViewController , GIDSignInUIDelegate, GIDSignInDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        self.view.isUserInteractionEnabled = true
         signinMessage.text = "SIGN IN WITH GOOGLE TO ACCESS DEVICES"
         
         launchButton.isHidden = true

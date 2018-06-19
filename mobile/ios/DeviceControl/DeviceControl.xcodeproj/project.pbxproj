@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3C3C59929A2A1E3CEC7FEA /* Pods_DeviceControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE36B8D734450624FE5965F /* Pods_DeviceControl.framework */; };
 		76293ED920998E0D006F8CA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76293ED820998E0D006F8CA1 /* GoogleService-Info.plist */; };
 		76A1425820B060EF0041BFD7 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1425720B060EF0041BFD7 /* NetWorkManager.swift */; };
 		76A1425A20B078B10041BFD7 /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1425920B078B10041BFD7 /* OfflineViewController.swift */; };
@@ -18,14 +19,18 @@
 		76B8A9E1208359FF00270FD1 /* LedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9E0208359FF00270FD1 /* LedViewController.swift */; };
 		76B8A9E320835A1400270FD1 /* SensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9E220835A1400270FD1 /* SensorViewController.swift */; };
 		76B8A9E7208C90CA00270FD1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9E6208C90CA00270FD1 /* LoginViewController.swift */; };
+		76CE60BD20CAF8B500557D13 /* ultrasonic.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CE60BC20CAF8B500557D13 /* ultrasonic.png */; };
+		76CE60C120CAFE2100557D13 /* sensor.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CE60C020CAFE2100557D13 /* sensor.png */; };
+		76CE60C920CC190E00557D13 /* ledlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CE60C820CC190E00557D13 /* ledlogo.png */; };
+		76CE60CB20CC1C0700557D13 /* ledoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CE60CA20CC1C0700557D13 /* ledoff.png */; };
+		76CE60CD20CC1C5700557D13 /* led on.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CE60CC20CC1C5700557D13 /* led on.png */; };
 		76D0227820A6133100E8FE8A /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D0227720A6133100E8FE8A /* webViewController.swift */; };
 		76E2F896209ECF5A0030A948 /* pubnubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E2F895209ECF5A0030A948 /* pubnubViewController.swift */; };
 		76E6B61A20A4462C00AABC90 /* 1471418820641MaxPi.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E6B61920A4462B00AABC90 /* 1471418820641MaxPi.png */; };
-		76EF47AA20B2C06E00E3640F /* Pods_DeviceControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A4C66EEB6DDA4FA1D0554B /* Pods_DeviceControl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		469B3378CF94E61F5A2FD243 /* Pods-DeviceControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl.release.xcconfig"; sourceTree = "<group>"; };
+		3FE36B8D734450624FE5965F /* Pods_DeviceControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeviceControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76293ED820998E0D006F8CA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		76A1425720B060EF0041BFD7 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 		76A1425920B078B10041BFD7 /* OfflineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
@@ -39,12 +44,16 @@
 		76B8A9E0208359FF00270FD1 /* LedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedViewController.swift; sourceTree = "<group>"; };
 		76B8A9E220835A1400270FD1 /* SensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorViewController.swift; sourceTree = "<group>"; };
 		76B8A9E6208C90CA00270FD1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		76CE60BC20CAF8B500557D13 /* ultrasonic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ultrasonic.png; sourceTree = "<group>"; };
+		76CE60C020CAFE2100557D13 /* sensor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sensor.png; sourceTree = "<group>"; };
+		76CE60C820CC190E00557D13 /* ledlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ledlogo.png; sourceTree = "<group>"; };
+		76CE60CA20CC1C0700557D13 /* ledoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ledoff.png; sourceTree = "<group>"; };
+		76CE60CC20CC1C5700557D13 /* led on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "led on.png"; sourceTree = "<group>"; };
 		76D0227720A6133100E8FE8A /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 		76E2F895209ECF5A0030A948 /* pubnubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pubnubViewController.swift; sourceTree = "<group>"; };
 		76E6B61920A4462B00AABC90 /* 1471418820641MaxPi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1471418820641MaxPi.png; sourceTree = "<group>"; };
-		76EF47AD20B2C07800E3640F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91A4C66EEB6DDA4FA1D0554B /* Pods_DeviceControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeviceControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA8B1A348983025BDDF803D1 /* Pods-DeviceControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl.debug.xcconfig"; sourceTree = "<group>"; };
+		BEB695B0E7C154223CA83B25 /* Pods-DeviceControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD998038176DD66AF72C414 /* Pods-DeviceControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76EF47AA20B2C06E00E3640F /* Pods_DeviceControl.framework in Frameworks */,
+				4E3C3C59929A2A1E3CEC7FEA /* Pods_DeviceControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,11 +71,10 @@
 		76B8A9C220832E2500270FD1 = {
 			isa = PBXGroup;
 			children = (
-				76EF47AD20B2C07800E3640F /* Alamofire.framework */,
 				76B8A9CD20832E2500270FD1 /* DeviceControl */,
 				76B8A9CC20832E2500270FD1 /* Products */,
-				E556EF278087FBB90A8FDFD5 /* Pods */,
-				85C76FE4DCDCBC9313E1AAA0 /* Frameworks */,
+				B54A44CCD7CFB9138E9E4697 /* Pods */,
+				93FDF4640E197496437E044C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +89,11 @@
 		76B8A9CD20832E2500270FD1 /* DeviceControl */ = {
 			isa = PBXGroup;
 			children = (
+				76CE60CA20CC1C0700557D13 /* ledoff.png */,
+				76CE60C820CC190E00557D13 /* ledlogo.png */,
+				76CE60CC20CC1C5700557D13 /* led on.png */,
+				76CE60BC20CAF8B500557D13 /* ultrasonic.png */,
+				76CE60C020CAFE2100557D13 /* sensor.png */,
 				76E6B61920A4462B00AABC90 /* 1471418820641MaxPi.png */,
 				76B8A9CE20832E2500270FD1 /* AppDelegate.swift */,
 				76B8A9D020832E2500270FD1 /* ViewController.swift */,
@@ -100,19 +113,19 @@
 			path = DeviceControl;
 			sourceTree = "<group>";
 		};
-		85C76FE4DCDCBC9313E1AAA0 /* Frameworks */ = {
+		93FDF4640E197496437E044C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				91A4C66EEB6DDA4FA1D0554B /* Pods_DeviceControl.framework */,
+				3FE36B8D734450624FE5965F /* Pods_DeviceControl.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E556EF278087FBB90A8FDFD5 /* Pods */ = {
+		B54A44CCD7CFB9138E9E4697 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA8B1A348983025BDDF803D1 /* Pods-DeviceControl.debug.xcconfig */,
-				469B3378CF94E61F5A2FD243 /* Pods-DeviceControl.release.xcconfig */,
+				BEB695B0E7C154223CA83B25 /* Pods-DeviceControl.debug.xcconfig */,
+				CDD998038176DD66AF72C414 /* Pods-DeviceControl.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -124,12 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76B8A9DD20832E2600270FD1 /* Build configuration list for PBXNativeTarget "DeviceControl" */;
 			buildPhases = (
-				8E293E4BEA2E2184B8D36A81 /* [CP] Check Pods Manifest.lock */,
+				28EF9D326924B56A7244B1D5 /* [CP] Check Pods Manifest.lock */,
 				76B8A9C720832E2500270FD1 /* Sources */,
 				76B8A9C820832E2500270FD1 /* Frameworks */,
 				76B8A9C920832E2500270FD1 /* Resources */,
-				81E60F9919949C9223B444D3 /* [CP] Embed Pods Frameworks */,
-				9BBCA25B35C1A7452A29AD70 /* [CP] Copy Pods Resources */,
+				4BA5021C3164C8ADBD7CF7B7 /* [CP] Embed Pods Frameworks */,
+				7A469865229AF5F75EC88363 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,20 +192,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CE60CB20CC1C0700557D13 /* ledoff.png in Resources */,
+				76CE60CD20CC1C5700557D13 /* led on.png in Resources */,
 				76B8A9D920832E2500270FD1 /* LaunchScreen.storyboard in Resources */,
 				76E6B61A20A4462C00AABC90 /* 1471418820641MaxPi.png in Resources */,
+				76CE60C920CC190E00557D13 /* ledlogo.png in Resources */,
 				76293ED920998E0D006F8CA1 /* GoogleService-Info.plist in Resources */,
 				76B8A9D620832E2500270FD1 /* Assets.xcassets in Resources */,
+				76CE60BD20CAF8B500557D13 /* ultrasonic.png in Resources */,
 				76B8A9D420832E2500270FD1 /* Main.storyboard in Resources */,
+				76CE60C120CAFE2100557D13 /* sensor.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		81E60F9919949C9223B444D3 /* [CP] Embed Pods Frameworks */ = {
+		28EF9D326924B56A7244B1D5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeviceControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BA5021C3164C8ADBD7CF7B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
@@ -213,34 +249,14 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8E293E4BEA2E2184B8D36A81 /* [CP] Check Pods Manifest.lock */ = {
+		7A469865229AF5F75EC88363 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DeviceControl-checkManifestLockResult.txt",
-				"$(DERIVED_FILE_DIR)/myfile",
-				"$(DERIVED_FILE_DIR)/myfile",
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9BBCA25B35C1A7452A29AD70 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
@@ -251,7 +267,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl-resources.sh\"\n";
 			showEnvVarsInLog = 0;
@@ -410,7 +426,7 @@
 		};
 		76B8A9DE20832E2600270FD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA8B1A348983025BDDF803D1 /* Pods-DeviceControl.debug.xcconfig */;
+			baseConfigurationReference = BEB695B0E7C154223CA83B25 /* Pods-DeviceControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -428,7 +444,7 @@
 		};
 		76B8A9DF20832E2600270FD1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 469B3378CF94E61F5A2FD243 /* Pods-DeviceControl.release.xcconfig */;
+			baseConfigurationReference = CDD998038176DD66AF72C414 /* Pods-DeviceControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
