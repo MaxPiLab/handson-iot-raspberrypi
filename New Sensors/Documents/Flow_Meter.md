@@ -41,6 +41,7 @@ The connections for this project are shown in the circuit diagram below. The res
 1.	Copy and paste the [code](https://github.com/11RO05/handson-iot-raspberrypi/blob/master/New%20Sensors/src/Flow_meter.py) provided in the GitHub repository and save it to your desired location.
 2.	Open **Python 3.5 (IDLE)** from the main menu and navigate to the code and open it.
 3.	Run the code by pressing **F5** or by manually clicking **Run** from the menu Run
+4. On running the code you will observe a series of binary digits. That is to tell whether the sensor is rotating or not. If it shows zero in the first attempt the sensor is working just fine but if it shows a series of one's then abort the program and run it again. It should work just fine
 4. Make the water to flow inside the sensor such that the impeller inside rotates and gives rise to pulses for the flow calculations.
 5.	If using water for this experiment becomes a difficulty then you can blow into the sensor and make the impeller inside the sensor to rotate. It won’t be accurate but it will show the approximate values and you will get an idea as to how the sensor works.
  
