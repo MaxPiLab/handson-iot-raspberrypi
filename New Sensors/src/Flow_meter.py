@@ -18,7 +18,7 @@ print("Approximate Water Flow")
 print("ctrl+c to exit")
 
 while True:
-    time_new = time.time() + 10     #+60 - for real life usage
+    time_new = time.time() + 10     #+60 - for real life usage (used 10 just to save time)
     rate_cnt = 0                    #Reset flow rate counter
     while time.time() <= time_new:
         if GPIO.input(inpt) != 0:   #Look for pulses
@@ -31,9 +31,9 @@ while True:
             GPIO.cleanup()                      #Clean up GPIO pins
             sys.exit()                          #Exit Nicely
     minutes += 1                                #Increment total minutes
-    print('\n\nLiters per min ', round(rate_cnt*constant,4))
-    print('Total Liters', round(tot_cnt*constant,4))
-    print('Time (min & clock)', minutes, '\t', time.asctime(time.localtime()))
+    print('\n\nLiters per min ', round(rate_cnt*constant,4))                    #Displaying the flow of water in Litres per minute 
+    print('Total Liters', round(tot_cnt*constant,4))                            #Displaying the total flow of water
+    print('Time (min & clock)', minutes, '\t', time.asctime(time.localtime()))  #Displaying the time 
 
 GPIO.cleanup()
 print('done')
