@@ -20,13 +20,12 @@ Water flow sensor consists of a plastic valve body, a water rotor, and a hall-ef
 ### STORY
 In this project we will be calculating the approximate amount of the flow of water. The sensor that we are using is the YF-S201 Water Flow Meter. It has a pretty simple design. The direction of the flow of water is given on the sensor to avoid any confusion as to how to use it. The capacity of the sensor is around 1-30 litres per minute. The sensor comes with three wires: red (5-24VDC power), black (ground) and yellow (Hall Effect pulse output). There is a small impeller connected inside which rotates when the water is passed through the sensor. On the impeller is connected a small magnet which triggers the Hall Effect switch and that causes the pulses to be generated. By counting the pulses from the output of the sensor, we can easily calculate water flow. Each pulse is approximately 2.25 millilitres. **Note:** this isn't a precision sensor, and the pulse rate does vary a bit depending on the flow rate, fluid pressure and sensor orientation. It will need careful calibration if better than 10% precision is required. However, it’s great for basic measurement tasks!
 
-#### Reasons to use the Water Flow Meter
-At the current rate of water usage there is a good chance that there will be difficulty in finding water for the generations to come. Huge amount of water is used in the fields for the crops to grow. When left unattended there is an unaffordable wastage of water. Using the water flow meter we can calculate the amount of water that flows through it in a particular time interval. Then we can turn on the water supply for that amount of time and turn it off after the total required water has been passed onto the field.
-
-#### Connections 
 The connections for this project are shown in the circuit diagram below. The resistors act as voltage dividers and restrict the flow of current. 
 
 <img src="https://github.com/11RO05/handson-iot-raspberrypi/blob/master/New%20Sensors/Circuit%20Diagram/Water%20Flow%20Meter.png">
+
+#### Reasons to use the Water Flow Meter
+At the current rate of water usage there is a good chance that there will be difficulty in finding water for the generations to come. Huge amount of water is used in the fields for the crops to grow. When left unattended there is an unaffordable wastage of water. Using the water flow meter we can calculate the amount of water that flows through it in a particular time interval. Then we can turn on the water supply for that amount of time and turn it off after the total required water has been passed onto the field
 
 ### INSTRUCTIONS
 
