@@ -48,7 +48,7 @@ The head of the IC has a semicircle and the left side pins are 1-8 (top – bott
 4.	Make the connections as per the circuit diagrams. (You can make the connections before connecting the input and output devices as well)
 
 #### Running the program 
-1.	Copy and paste the code provided in the GitHub repository and save it to your desired location.
+1.	Copy and paste the [code](https://github.com/11RO05/handson-iot-raspberrypi/blob/master/New%20Sensors/src/Motors.py) provided in the GitHub repository and save it to your desired location.
 2.	Open **Python 3.5 (IDLE)** from the main menu and navigate to the code and open it.
 3.	Run the code by pressing **F5** or by manually clicking **Run** from the menu Run
 4.	Observe the rotation of the motors connected. For the first 10 seconds the motors rotate in the anti-clockwise direction and for the next 10 seconds the motors rotate in clockwise direction
