@@ -2,9 +2,7 @@
 //  OfflineViewController.swift
 //  DeviceControl
 //
-//  Created by Sundaram R on 5/19/18.
-//  Copyright © 2018 Maxpi. All rights reserved.
-//
+
 
 import UIKit
 
