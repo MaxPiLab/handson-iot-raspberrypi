@@ -11,22 +11,19 @@
 		76293ED920998E0D006F8CA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76293ED820998E0D006F8CA1 /* GoogleService-Info.plist */; };
 		76A1425820B060EF0041BFD7 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1425720B060EF0041BFD7 /* NetWorkManager.swift */; };
 		76A1425A20B078B10041BFD7 /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1425920B078B10041BFD7 /* OfflineViewController.swift */; };
+		76A6192020F8E3BF00549226 /* led-lamp-red-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A6191F20F8E3BF00549226 /* led-lamp-red-off.png */; };
+		76A6192220F8E3CB00549226 /* led-lamp-red-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A6192120F8E3CB00549226 /* led-lamp-red-on.png */; };
 		76B8A9CF20832E2500270FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9CE20832E2500270FD1 /* AppDelegate.swift */; };
 		76B8A9D120832E2500270FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9D020832E2500270FD1 /* ViewController.swift */; };
 		76B8A9D420832E2500270FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B8A9D220832E2500270FD1 /* Main.storyboard */; };
 		76B8A9D620832E2500270FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B8A9D520832E2500270FD1 /* Assets.xcassets */; };
 		76B8A9D920832E2500270FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B8A9D720832E2500270FD1 /* LaunchScreen.storyboard */; };
-		76B8A9E1208359FF00270FD1 /* LedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9E0208359FF00270FD1 /* LedViewController.swift */; };
-		76B8A9E320835A1400270FD1 /* SensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9E220835A1400270FD1 /* SensorViewController.swift */; };
 		76B8A9E7208C90CA00270FD1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A9E6208C90CA00270FD1 /* LoginViewController.swift */; };
 		76CE60BD20CAF8B500557D13 /* ultrasonic.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CE60BC20CAF8B500557D13 /* ultrasonic.png */; };
-		76CE60C120CAFE2100557D13 /* sensor.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CE60C020CAFE2100557D13 /* sensor.png */; };
-		76CE60C920CC190E00557D13 /* ledlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CE60C820CC190E00557D13 /* ledlogo.png */; };
-		76CE60CB20CC1C0700557D13 /* ledoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CE60CA20CC1C0700557D13 /* ledoff.png */; };
-		76CE60CD20CC1C5700557D13 /* led on.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CE60CC20CC1C5700557D13 /* led on.png */; };
+		76CE60C120CAFE2100557D13 /* sensoron.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CE60C020CAFE2100557D13 /* sensoron.png */; };
 		76D0227820A6133100E8FE8A /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D0227720A6133100E8FE8A /* webViewController.swift */; };
 		76E2F896209ECF5A0030A948 /* pubnubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E2F895209ECF5A0030A948 /* pubnubViewController.swift */; };
-		76E6B61A20A4462C00AABC90 /* 1471418820641MaxPi.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E6B61920A4462B00AABC90 /* 1471418820641MaxPi.png */; };
+		76E6B61A20A4462C00AABC90 /* MaxPi.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E6B61920A4462B00AABC90 /* MaxPi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +31,8 @@
 		76293ED820998E0D006F8CA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		76A1425720B060EF0041BFD7 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 		76A1425920B078B10041BFD7 /* OfflineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
+		76A6191F20F8E3BF00549226 /* led-lamp-red-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "led-lamp-red-off.png"; sourceTree = "<group>"; };
+		76A6192120F8E3CB00549226 /* led-lamp-red-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "led-lamp-red-on.png"; sourceTree = "<group>"; };
 		76B8A9CB20832E2500270FD1 /* DeviceControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B8A9CE20832E2500270FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76B8A9D020832E2500270FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,17 +40,12 @@
 		76B8A9D520832E2500270FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76B8A9D820832E2500270FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76B8A9DA20832E2600270FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76B8A9E0208359FF00270FD1 /* LedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedViewController.swift; sourceTree = "<group>"; };
-		76B8A9E220835A1400270FD1 /* SensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorViewController.swift; sourceTree = "<group>"; };
 		76B8A9E6208C90CA00270FD1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		76CE60BC20CAF8B500557D13 /* ultrasonic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ultrasonic.png; sourceTree = "<group>"; };
-		76CE60C020CAFE2100557D13 /* sensor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sensor.png; sourceTree = "<group>"; };
-		76CE60C820CC190E00557D13 /* ledlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ledlogo.png; sourceTree = "<group>"; };
-		76CE60CA20CC1C0700557D13 /* ledoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ledoff.png; sourceTree = "<group>"; };
-		76CE60CC20CC1C5700557D13 /* led on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "led on.png"; sourceTree = "<group>"; };
+		76CE60C020CAFE2100557D13 /* sensoron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sensoron.png; sourceTree = "<group>"; };
 		76D0227720A6133100E8FE8A /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 		76E2F895209ECF5A0030A948 /* pubnubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pubnubViewController.swift; sourceTree = "<group>"; };
-		76E6B61920A4462B00AABC90 /* 1471418820641MaxPi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1471418820641MaxPi.png; sourceTree = "<group>"; };
+		76E6B61920A4462B00AABC90 /* MaxPi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MaxPi.png; sourceTree = "<group>"; };
 		BEB695B0E7C154223CA83B25 /* Pods-DeviceControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl.debug.xcconfig"; sourceTree = "<group>"; };
 		CDD998038176DD66AF72C414 /* Pods-DeviceControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceControl/Pods-DeviceControl.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,16 +83,13 @@
 		76B8A9CD20832E2500270FD1 /* DeviceControl */ = {
 			isa = PBXGroup;
 			children = (
-				76CE60CA20CC1C0700557D13 /* ledoff.png */,
-				76CE60C820CC190E00557D13 /* ledlogo.png */,
-				76CE60CC20CC1C5700557D13 /* led on.png */,
+				76A6192120F8E3CB00549226 /* led-lamp-red-on.png */,
+				76A6191F20F8E3BF00549226 /* led-lamp-red-off.png */,
 				76CE60BC20CAF8B500557D13 /* ultrasonic.png */,
-				76CE60C020CAFE2100557D13 /* sensor.png */,
-				76E6B61920A4462B00AABC90 /* 1471418820641MaxPi.png */,
+				76CE60C020CAFE2100557D13 /* sensoron.png */,
+				76E6B61920A4462B00AABC90 /* MaxPi.png */,
 				76B8A9CE20832E2500270FD1 /* AppDelegate.swift */,
 				76B8A9D020832E2500270FD1 /* ViewController.swift */,
-				76B8A9E0208359FF00270FD1 /* LedViewController.swift */,
-				76B8A9E220835A1400270FD1 /* SensorViewController.swift */,
 				76B8A9D220832E2500270FD1 /* Main.storyboard */,
 				76A1425920B078B10041BFD7 /* OfflineViewController.swift */,
 				76D0227720A6133100E8FE8A /* webViewController.swift */,
@@ -192,16 +183,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76CE60CB20CC1C0700557D13 /* ledoff.png in Resources */,
-				76CE60CD20CC1C5700557D13 /* led on.png in Resources */,
 				76B8A9D920832E2500270FD1 /* LaunchScreen.storyboard in Resources */,
-				76E6B61A20A4462C00AABC90 /* 1471418820641MaxPi.png in Resources */,
-				76CE60C920CC190E00557D13 /* ledlogo.png in Resources */,
+				76E6B61A20A4462C00AABC90 /* MaxPi.png in Resources */,
 				76293ED920998E0D006F8CA1 /* GoogleService-Info.plist in Resources */,
 				76B8A9D620832E2500270FD1 /* Assets.xcassets in Resources */,
 				76CE60BD20CAF8B500557D13 /* ultrasonic.png in Resources */,
+				76A6192220F8E3CB00549226 /* led-lamp-red-on.png in Resources */,
+				76A6192020F8E3BF00549226 /* led-lamp-red-off.png in Resources */,
 				76B8A9D420832E2500270FD1 /* Main.storyboard in Resources */,
-				76CE60C120CAFE2100557D13 /* sensor.png in Resources */,
+				76CE60C120CAFE2100557D13 /* sensoron.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				76D0227820A6133100E8FE8A /* webViewController.swift in Sources */,
-				76B8A9E1208359FF00270FD1 /* LedViewController.swift in Sources */,
 				76B8A9D120832E2500270FD1 /* ViewController.swift in Sources */,
 				76A1425A20B078B10041BFD7 /* OfflineViewController.swift in Sources */,
-				76B8A9E320835A1400270FD1 /* SensorViewController.swift in Sources */,
 				76A1425820B060EF0041BFD7 /* NetWorkManager.swift in Sources */,
 				76B8A9E7208C90CA00270FD1 /* LoginViewController.swift in Sources */,
 				76E2F896209ECF5A0030A948 /* pubnubViewController.swift in Sources */,

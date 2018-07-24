@@ -1,10 +1,6 @@
 //
 //  AppDelegate.swift
 //  DeviceControl
-//
-//  Created by Sundaram R on 4/15/18.
-//  Copyright © 2018 Maxpi. All rights reserved.
-//
 
 import UIKit
 import PubNub
@@ -18,28 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var client: PubNub?
     var config: PNConfiguration?
-    
-    //var client_led, client_sensor: PubNub?
-    //var config_led, config_sensor: PNConfiguration?
-    
-    /*var led_pubkey = "pub-c-7d635ffa-d57a-47f2-b400-817dd3816e6d"
-    var led_subkey = "sub-c-bcc1aed0-36eb-11e8-a218-f214888d2de6"
-    var sensor_pubkey = "pub-c-9710b97d-1b82-4e19-8508-ef27b1bf9fde"
-    var sensor_subkey = "sub-c-18528260-3ca5-11e8-a433-9e6b275e7b64"
-
-    override init()
-    {
-        config_led = PNConfiguration(publishKey: led_pubkey, subscribeKey: led_subkey)
-        client_led = PubNub.clientWithConfiguration(config_led)
-        
-        
-        config_sensor = PNConfiguration(publishKey: sensor_pubkey, subscribeKey: sensor_subkey)
-        client_sensor = PubNub.clientWithConfiguration(config_sensor)
-        
-        super.init()
-        
-        
-    } */
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
         return GIDSignIn.sharedInstance().handle(url as URL?,

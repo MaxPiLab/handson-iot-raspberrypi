@@ -2,9 +2,6 @@
 //  webViewController.swift
 //  DeviceControl
 //
-//  Created by Sundaram R on 5/11/18.
-//  Copyright © 2018 Maxpi. All rights reserved.
-//
 
 import UIKit
 

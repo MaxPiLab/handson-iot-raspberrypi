@@ -2,9 +2,7 @@
 //  LoginViewController.swift
 //  DeviceControl
 //
-//  Created by Sundaram R on 4/22/18.
-//  Copyright © 2018 Maxpi. All rights reserved.
-//
+
 
 import UIKit
 import Google
@@ -13,15 +11,14 @@ import SafariServices
 
 class LoginViewController: UIViewController , GIDSignInUIDelegate, GIDSignInDelegate, SFSafariViewControllerDelegate {
     @IBOutlet var welcomeLabel: UILabel!
-    
     @IBOutlet var signOut: UIButton!
-    
     @IBOutlet var launchButton: UIButton!
-    
-    
+    @IBOutlet var configure: UIButton!
     @IBOutlet var signinMessage: UILabel!
+    let userDefaults = UserDefaults.standard
+   
     let signInButton =  GIDSignInButton()
-    let contorllername = "loginViewController"
+    
     @IBAction func signoutTapped(_ sender: Any) {
         GIDSignIn.sharedInstance().signOut()
         GIDSignIn.sharedInstance().disconnect()
@@ -32,19 +29,32 @@ class LoginViewController: UIViewController , GIDSignInUIDelegate, GIDSignInDele
         welcomeLabel.isHidden=true
         signOut.isHidden=true
         launchButton.isHidden=true
+        configure.isHidden=true
         signInButton.isHidden=false
     }
-    @IBAction func launchApp(_ sender: Any) {
+    @IBAction func configurepubnub(_ sender: Any) {
+        let secondViewController = self.storyboard?.instantiateViewController(withIdentifier:  "pubnubViewController")
+        self.navigationController?.pushViewController(secondViewController!, animated: true)
     }
+        
     
+    
+    @IBAction func devicecontrol(_ sender: Any) {
+        let secondViewController = self.storyboard?.instantiateViewController(withIdentifier:  "ViewController")
+        self.navigationController?.pushViewController(secondViewController!, animated: true)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        userDefaults.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
+        userDefaults.synchronize()
         self.view.isUserInteractionEnabled = true
         signinMessage.text = "SIGN IN WITH GOOGLE TO ACCESS DEVICES"
         
         launchButton.isHidden = true
         signOut.isHidden = true
         welcomeLabel.isHidden = true
+        configure.isHidden = true
         //error object
         var error : NSError?
         
@@ -110,6 +120,7 @@ class LoginViewController: UIViewController , GIDSignInUIDelegate, GIDSignInDele
             welcomeLabel.isHidden=false
             signOut.isHidden=false
             launchButton.isHidden=false
+            configure.isHidden=false
             welcomeLabel.text="Welcome \(user.profile.name!)"
             welcomeLabel.numberOfLines = 2
         }
@@ -125,12 +136,6 @@ class LoginViewController: UIViewController , GIDSignInUIDelegate, GIDSignInDele
         }
     }
     
-   /* private func showOfflinePage() -> Void {
-        DispatchQueue.main.async {
-            let secondViewController = self.storyboard?.instantiateViewController(withIdentifier:  "OfflineViewController")
-            
-            self.navigationController?.pushViewController(secondViewController!, animated: true)
-        }
-    }*/
+ 
 
 }
